@@ -69,3 +69,7 @@ h2 {
 .btn {
     z-index: 9;
 }
+
+.sticky-botom-bg {
+    background-color: #0c4128;
+}

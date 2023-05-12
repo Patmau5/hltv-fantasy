@@ -2847,6 +2847,7 @@ const BestCombination = () => {
 
     const handleReset = () => {
         addCheckedPlayers(teams);
+        setBestCombination([]);
     }
 
     if (loading) {
@@ -2878,30 +2879,32 @@ const BestCombination = () => {
                     ))}
                 </div>
             ))}
-            <div className="d-flex flex-row w-100 justify-content-between">
-                <button type="button" onClick={() => handleReset()} className="btn btn-warning my-3">Reset all</button>
-                <button type="button" onClick={() => handleGenerateBestCombination(modifiedTeams)} className="btn btn-success my-3">Generate best possible combination</button>
-            </div>
-            {bestCombination.length > 0 &&
-                <div className="d-flex flex-row gap-2">
-                    {bestCombination.map((player, i) => (
-                        <Fragment key={'1' + i}>
-                            <div className="card">
-                                <div className="position-relative">
-                                    <img src={player.playerData.picture} className="card-img-top img-picture" alt="..."/>
-                                    <img src={player.playerData.flag} className="img-flag" alt="..."/>
-                                    <img src={player.playerData.team.logoDay} className="img-logo" alt="..."/>
-                                </div>
-                                <div className="card-body text-center">
-                                    <p className="fw-bold">{player.playerData.name}</p>
-                                    <p>Rating: {player.playerData.stats.rating}</p>
-                                    <p>Cost: ${player.cost}</p>
-                                </div>
-                            </div>
-                        </Fragment>
-                    ))}
+            <div className="fixed-bottom w-100 sticky-botom-bg p-2">
+                <div className="d-flex flex-row justify-content-between">
+                    <button type="button" onClick={() => handleReset()} className="btn btn-warning my-3">Reset all</button>
+                    <button type="button" onClick={() => handleGenerateBestCombination(modifiedTeams)} className="btn btn-success my-3">Generate best possible combination</button>
                 </div>
-            }
+                {bestCombination.length > 0 &&
+                    <div className="d-flex flex-row justify-content-center gap-2">
+                        {bestCombination.map((player, i) => (
+                            <Fragment key={'1' + i}>
+                                <div className="card">
+                                    <div className="position-relative">
+                                        <img src={player.playerData.picture} className="card-img-top img-picture" alt="..."/>
+                                        <img src={player.playerData.flag} className="img-flag" alt="..."/>
+                                        <img src={player.playerData.team.logoDay} className="img-logo" alt="..."/>
+                                    </div>
+                                    <div className="card-body text-center">
+                                        <p className="fw-bold">{player.playerData.name}</p>
+                                        <p>Rating: {player.playerData.stats.rating}</p>
+                                        <p>Cost: ${player.cost}</p>
+                                    </div>
+                                </div>
+                            </Fragment>
+                        ))}
+                    </div>
+                }
+            </div>
         </div>
     );
 };
