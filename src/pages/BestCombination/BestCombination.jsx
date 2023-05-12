@@ -2855,31 +2855,33 @@ const BestCombination = () => {
     }
 
     return (
-        <div className="d-flex flex-column align-items-center gap-2 p-3 bc-bg">
-            {modifiedTeams && modifiedTeams.length > 0 && modifiedTeams.map((team, i) => (
-                <div key={'0' + i} className="d-flex flex-row gap-2">
-                    {team.players.map((player, index) => (
-                        <div key={'1' + index}  className={`card ${!player.checked && "inactive-bg"}`}>
-                            <div className="position-relative">
-                                <img src={player.playerData.picture} className="card-img-top img-picture" alt="..."/>
-                                <img src={player.playerData.flag} className="img-flag" alt="..."/>
-                                <img src={player.playerData.team.logoDay} className="img-logo" alt="..."/>
+        <Fragment>
+            <div className="d-flex flex-column align-items-center gap-2 p-3 bc-bg">
+                {modifiedTeams && modifiedTeams.length > 0 && modifiedTeams.map((team, i) => (
+                    <div key={'0' + i} className="d-flex flex-row gap-2">
+                        {team.players.map((player, index) => (
+                            <div key={'1' + index}  className={`card ${!player.checked && "inactive-bg"}`}>
+                                <div className="position-relative">
+                                    <img src={player.playerData.picture} className="card-img-top img-picture" alt="..."/>
+                                    <img src={player.playerData.flag} className="img-flag" alt="..."/>
+                                    <img src={player.playerData.team.logoDay} className="img-logo" alt="..."/>
+                                </div>
+                                <div className="card-body text-center">
+                                    <h2 className="fw-bold">{player.playerData.name}</h2>
+                                    <p>Rating: <span className="float-end">{player.playerData.stats.rating}</span></p>
+                                    <p>Cost: <span className="float-end">${player.cost}</span></p>
+                                </div>
+                                {player.checked ?
+                                    <button onClick={() => handleDeletePlayer(player.playerData.name)} className="btn btn-danger">Delete</button>
+                                    :
+                                    <button onClick={() => handleRestorePlayer(player.playerData.name)} className="btn btn-primary">Restore</button>
+                                }
                             </div>
-                            <div className="card-body text-center">
-                                <h2 className="fw-bold">{player.playerData.name}</h2>
-                                <p>Rating: <span className="float-end">{player.playerData.stats.rating}</span></p>
-                                <p>Cost: <span className="float-end">${player.cost}</span></p>
-                            </div>
-                            {player.checked ?
-                                <button onClick={() => handleDeletePlayer(player.playerData.name)} className="btn btn-danger">Delete</button>
-                                :
-                                <button onClick={() => handleRestorePlayer(player.playerData.name)} className="btn btn-primary">Restore</button>
-                            }
-                        </div>
-                    ))}
-                </div>
-            ))}
-            <div className="fixed-bottom w-100 sticky-botom-bg p-2">
+                        ))}
+                    </div>
+                ))}
+            </div>
+            <div className="sticky-bottom sticky-botom-bg p-2">
                 <div className="d-flex flex-row justify-content-evenly">
                     <button type="button" onClick={() => handleReset()} className="btn btn-warning my-3">Reset all</button>
                     <button type="button" onClick={() => handleGenerateBestCombination(modifiedTeams)} className="btn btn-success my-3">Generate best possible combination</button>
@@ -2905,7 +2907,7 @@ const BestCombination = () => {
                     </div>
                 }
             </div>
-        </div>
+        </Fragment>
     );
 };
 
