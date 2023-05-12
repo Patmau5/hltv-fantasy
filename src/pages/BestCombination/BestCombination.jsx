@@ -2880,7 +2880,7 @@ const BestCombination = () => {
                 </div>
             ))}
             <div className="fixed-bottom w-100 sticky-botom-bg p-2">
-                <div className="d-flex flex-row justify-content-between">
+                <div className="d-flex flex-row justify-content-evenly">
                     <button type="button" onClick={() => handleReset()} className="btn btn-warning my-3">Reset all</button>
                     <button type="button" onClick={() => handleGenerateBestCombination(modifiedTeams)} className="btn btn-success my-3">Generate best possible combination</button>
                 </div>
