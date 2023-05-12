@@ -6,7 +6,8 @@ const BestCombination = () => {
 
     const effectRan = useRef(false)
 
-    const teams = [
+    let teams;
+    teams = [
         {
             "players": [
                 {
@@ -2738,13 +2739,13 @@ const BestCombination = () => {
 
     useEffect(() => {
 
-        if (effectRan.current){
+        if (!effectRan.current){
             addCheckedPlayers(teams);
         }
         return () => {
             effectRan.current = true;
         }
-    }, [])
+    }, [teams])
 
     function findBestCombination(teams) {
         const startTime = performance.now();
