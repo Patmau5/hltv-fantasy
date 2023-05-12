@@ -9,7 +9,7 @@ function App() {
       <Fragment>
           <Header/>
           <Routes>
-              <Route path="/best-combination" element={<BestCombination />} />
+              <Route path="/" element={<BestCombination />} />
           </Routes>
       </Fragment>
   )

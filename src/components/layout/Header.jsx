@@ -12,11 +12,6 @@ const Header = () => {
                                     Home
                                 </Link>
                             </li>
-                            <li>
-                                <Link to={"/best-combination"} className="nav-link text-white">
-                                    Best Combination
-                                </Link>
-                            </li>
                         </ul>
                     </div>
                 </div>
