@@ -1,8 +1,10 @@
-import {Fragment, useState} from 'react';
+import {Fragment, useEffect, useRef, useState} from 'react';
 import Loading from "../../components/layout/Loading.jsx";
 import './index.css'
 
 const BestCombination = () => {
+
+    const effectRan = useRef(false)
 
     const teams = [
         {
@@ -2731,45 +2733,68 @@ const BestCombination = () => {
     ];
 
     const [bestCombination, setBestCombination] = useState([]);
-    const [modifiedTeams, setModifiedTeams] = useState(teams);
+    const [modifiedTeams, setModifiedTeams] = useState([]);
     const [loading, setLoading] = useState(false);
+
+    useEffect(() => {
+
+        if (effectRan.current){
+            addCheckedPlayers(teams);
+        }
+        return () => {
+            effectRan.current = true;
+        }
+    }, [])
+
     function findBestCombination(teams) {
+        const startTime = performance.now();
         const players = teams.flatMap(team => team.players);
-        let combinations = [];
 
-        function createCombination(currentCombination, startIndex, teamCount, ratingTotal) {
-            if (currentCombination.length === 5) {
-                const totalCost = currentCombination.reduce((sum, player) => sum + player.cost, 0);
-                if (totalCost <= 1000000) {
-                    combinations.push(currentCombination);
+        let bestCombination = [];
+        let bestRating = 0;
+
+        const stack = [{ combination: [], startIndex: 0, teamCount: {}, ratingTotal: 0 }];
+
+        while (stack.length > 0) {
+            const { combination, startIndex, teamCount, ratingTotal } = stack.pop();
+
+            if (combination.length === 5) {
+                const totalCost = combination.reduce((sum, player) => sum + player.cost, 0);
+                if (totalCost <= 1000000 && ratingTotal > bestRating) {
+                    bestCombination = [...combination];
+                    bestRating = ratingTotal;
                 }
-                return;
-            }
-
-            for (let i = startIndex; i < players.length; i++) {
-                const { playerData: {stats: {rating}, team: {name}} } = players[i];
-                const currentTeamCount = teamCount[name] || 0;
-                if (currentTeamCount < 2) {
-                    createCombination(
-                        [...currentCombination, players[i]],
-                        i + 1,
-                        { ...teamCount, [name]: currentTeamCount + 1 },
-                        ratingTotal + parseFloat(rating)
-                    );
+            } else {
+                for (let i = startIndex; i < players.length; i++) {
+                    const { playerData: { stats: { rating }, team: { name } } } = players[i];
+                    const currentTeamCount = teamCount[name] || 0;
+                    if (currentTeamCount < 2) {
+                        stack.push({
+                            combination: [...combination, players[i]],
+                            startIndex: i + 1,
+                            teamCount: { ...teamCount, [name]: currentTeamCount + 1 },
+                            ratingTotal: ratingTotal + parseFloat(rating)
+                        });
+                    }
                 }
             }
         }
 
-        createCombination([], 0, {}, 0);
+        const endTime = performance.now();
+        const elapsedTime = (endTime - startTime) / 1000;
+        console.log(`Tiempo transcurrido: ${elapsedTime} segundos`);
+        return bestCombination;
+    }
 
-        // Ordenar las combinaciones por el rating total más alto
-        combinations.sort((a, b) => {
-            const ratingA = a.reduce((sum, { playerData: { stats: { rating } } }) => sum + parseFloat(rating), 0);
-            const ratingB = b.reduce((sum, { playerData: { stats: { rating } } }) => sum + parseFloat(rating), 0);
-            return ratingB - ratingA;
-        });
+    const addCheckedPlayers = (teams) => {
+        const newTeams = [...teams];
 
-        return combinations[0];
+        for (const team of newTeams) {
+            for (const player of team.players) {
+                player.checked = true;
+            }
+        }
+        setModifiedTeams(newTeams);
     }
 
     const handleDeletePlayer = (name) => {
@@ -2779,16 +2804,45 @@ const BestCombination = () => {
         for (let i = 0; i < newTeams.length; i++) {
             let indexToRemove = newTeams[i].players.findIndex(player => player.playerData.name === name);
             if (indexToRemove !== -1) {
-                newTeams[i].players.splice(indexToRemove, 1);
+                newTeams[i].players[indexToRemove].checked = false
+                // newTeams[i].players.splice(indexToRemove, 1);
+                setModifiedTeams(newTeams);
+            }
+        }
+    }
+
+    const handleRestorePlayer = (name) => {
+        const newTeams = [...modifiedTeams];
+
+        for (let i = 0; i < newTeams.length; i++) {
+            let indexToRemove = newTeams[i].players.findIndex(player => player.playerData.name === name);
+            if (indexToRemove !== -1) {
+                newTeams[i].players[indexToRemove].checked = true
                 setModifiedTeams(newTeams);
             }
         }
     }
 
     const handleGenerateBestCombination = async (teams) => {
+
         setLoading(true);
-        setBestCombination(findBestCombination(teams));
-        setLoading(false);
+
+        let newTeams = JSON.parse(JSON.stringify(teams));
+
+        newTeams = newTeams.filter(function(team) {
+            const newPlayers = team.players.filter(function(player) {
+                return player.checked === true;
+            });
+
+            team.players = newPlayers;
+
+            return newPlayers.length > 0;
+        })
+
+        const result = findBestCombination(newTeams)
+        setBestCombination(result);
+        setLoading(false)
+
     }
 
     const handleReset = () => {
@@ -2804,7 +2858,7 @@ const BestCombination = () => {
             {modifiedTeams && modifiedTeams.length > 0 && modifiedTeams.map((team, i) => (
                 <div key={'0' + i} className="d-flex flex-row gap-2">
                     {team.players.map((player, index) => (
-                        <div key={'1' + index}  className="card">
+                        <div key={'1' + index}  className={`card ${!player.checked && "inactive-bg"}`}>
                             <div className="position-relative">
                                 <img src={player.playerData.picture} className="card-img-top img-picture" alt="..."/>
                                 <img src={player.playerData.flag} className="img-flag" alt="..."/>
@@ -2815,7 +2869,11 @@ const BestCombination = () => {
                                 <p>Rating: <span className="float-end">{player.playerData.stats.rating}</span></p>
                                 <p>Cost: <span className="float-end">${player.cost}</span></p>
                             </div>
-                            <button onClick={() => handleDeletePlayer(player.playerData.name)} className="btn btn-danger">Delete</button>
+                            {player.checked ?
+                                <button onClick={() => handleDeletePlayer(player.playerData.name)} className="btn btn-danger">Delete</button>
+                                :
+                                <button onClick={() => handleRestorePlayer(player.playerData.name)} className="btn btn-primary">Restore</button>
+                            }
                         </div>
                     ))}
                 </div>
@@ -2824,7 +2882,7 @@ const BestCombination = () => {
                 <button type="button" onClick={() => handleReset()} className="btn btn-warning my-3">Reset all</button>
                 <button type="button" onClick={() => handleGenerateBestCombination(modifiedTeams)} className="btn btn-success my-3">Generate best possible combination</button>
             </div>
-           {bestCombination.length > 0 &&
+            {bestCombination.length > 0 &&
                 <div className="d-flex flex-row gap-2">
                     {bestCombination.map((player, i) => (
                         <Fragment key={'1' + i}>
