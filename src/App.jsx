@@ -9,7 +9,7 @@ function App() {
       <Fragment>
           <Header/>
           <Routes>
-              <Route path="/" element={<BestCombination />} />
+              <Route path="/hltv-fantasy/" element={<BestCombination />} />
           </Routes>
       </Fragment>
   )

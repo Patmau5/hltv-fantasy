@@ -8,7 +8,7 @@ const Header = () => {
                     <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                         <ul className="nav col-12 col-lg-auto fw-bold my-0 justify-content-center text-small">
                             <li>
-                                <Link to={"/"} className="nav-link text-white">
+                                <Link to={"/hltv-fantasy/"} className="nav-link text-white">
                                     Home
                                 </Link>
                             </li>
