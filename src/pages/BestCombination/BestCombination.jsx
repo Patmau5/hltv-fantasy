@@ -2803,10 +2803,9 @@ const BestCombination = () => {
         const newTeams = [...modifiedTeams];
 
         for (let i = 0; i < newTeams.length; i++) {
-            let indexToRemove = newTeams[i].players.findIndex(player => player.playerData.name === name);
-            if (indexToRemove !== -1) {
-                newTeams[i].players[indexToRemove].checked = false
-                // newTeams[i].players.splice(indexToRemove, 1);
+            let indexToSet = newTeams[i].players.findIndex(player => player.playerData.name === name);
+            if (indexToSet !== -1) {
+                newTeams[i].players[indexToSet].checked = false
                 setModifiedTeams(newTeams);
             }
         }
@@ -2816,9 +2815,9 @@ const BestCombination = () => {
         const newTeams = [...modifiedTeams];
 
         for (let i = 0; i < newTeams.length; i++) {
-            let indexToRemove = newTeams[i].players.findIndex(player => player.playerData.name === name);
-            if (indexToRemove !== -1) {
-                newTeams[i].players[indexToRemove].checked = true
+            let indexToSet = newTeams[i].players.findIndex(player => player.playerData.name === name);
+            if (indexToSet !== -1) {
+                newTeams[i].players[indexToSet].checked = true
                 setModifiedTeams(newTeams);
             }
         }
@@ -2847,7 +2846,7 @@ const BestCombination = () => {
     }
 
     const handleReset = () => {
-        setModifiedTeams(teams);
+        addCheckedPlayers(teams);
     }
 
     if (loading) {
