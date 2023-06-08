@@ -11,1350 +11,1363 @@ const BestCombination = () => {
         {
             "players": [
                 {
-                    "cost": 180000,
+                    "cost": 197000,
                     "playerData": {
-                        "name": "apEX",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/FR.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/vDksHfTWrFDEnn0l1SZs0Z.png?ixlib=java-2.1.0&w=400&s=a4bb4d87a77197f89550e2b0dbefcecc",
-                        "stats": {
-                            "rating": "0.94",
-                            "ctRating": "0.94",
-                            "tRating": "0.93",
-                            "awpKillsPerRound": "0.00",
-                            "hsPercentage": "43.1%",
-                            "entryFragsPerRound": "8.0%",
-                            "cluthesPerRound": "1.0%",
-                            "supportRounds": "21.1%",
-                            "multiKillRounds": "12.4%",
-                            "dpr": "0.65"
-                        },
-                        "team": {
-                            "name": "Vitality",
-                            "link": "/team/9565/vitality",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/ogcHrcCdzRvxbYvAz04KAN.png?ixlib=java-2.1.0&w=50&s=e1f6019aa9f274ffe45a5e99c88dbc02",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/yeXBldn9w8LZCgdElAenPs.png?ixlib=java-2.1.0&w=50&s=15eaba0b75250065d20162d2cb05e3e6"
-                        },
-                        "fantasyPlayerId": {
-                            "playerId": 7322
-                        },
-                        "statsLocation": "/stats/players/7322/apex?startDate=2022-11-26&endDate=2023-05-26",
-                        "male": true
-                    }
-                },
-                {
-                    "cost": 194000,
-                    "playerData": {
-                        "name": "dupreeh",
+                        "name": "Snappi",
                         "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/o7msRJxwfm_ocbomcixhyK.png?ixlib=java-2.1.0&w=400&s=c467bce055bc7fca693f975758438103",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/YcM10KQ5AA_CjX6uEemkna.png?ixlib=java-2.1.0&w=400&s=546f182cff21b191625068c347d74121",
                         "playerLevel": "SILVER",
                         "stats": {
-                            "rating": "1.03",
-                            "ctRating": "1.05",
-                            "tRating": "1.02",
+                            "rating": "0.96",
+                            "ctRating": "0.97",
+                            "tRating": "0.94",
                             "awpKillsPerRound": "0.01",
-                            "hsPercentage": "47.9%",
-                            "entryFragsPerRound": "10.5%",
-                            "cluthesPerRound": "0.8%",
-                            "supportRounds": "21.3%",
-                            "multiKillRounds": "13.9%",
-                            "dpr": "0.62"
-                        },
-                        "team": {
-                            "name": "Vitality",
-                            "link": "/team/9565/vitality",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/ogcHrcCdzRvxbYvAz04KAN.png?ixlib=java-2.1.0&w=50&s=e1f6019aa9f274ffe45a5e99c88dbc02",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/yeXBldn9w8LZCgdElAenPs.png?ixlib=java-2.1.0&w=50&s=15eaba0b75250065d20162d2cb05e3e6"
-                        },
-                        "fantasyPlayerId": {
-                            "playerId": 7398
-                        },
-                        "statsLocation": "/stats/players/7398/dupreeh?startDate=2022-11-26&endDate=2023-05-26",
-                        "male": true
-                    }
-                },
-                {
-                    "cost": 206000,
-                    "playerData": {
-                        "name": "Magisk",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/2YQBwCCs3DnkjuzdZAbpel.png?ixlib=java-2.1.0&w=400&s=7db9549eb0b68633dff0fde24ec09db5",
-                        "playerLevel": "SILVER",
-                        "stats": {
-                            "rating": "1.10",
-                            "ctRating": "1.10",
-                            "tRating": "1.11",
-                            "awpKillsPerRound": "0.01",
-                            "hsPercentage": "50.9%",
-                            "entryFragsPerRound": "9.5%",
-                            "cluthesPerRound": "1.1%",
-                            "supportRounds": "22.1%",
-                            "multiKillRounds": "16.3%",
-                            "dpr": "0.62"
-                        },
-                        "team": {
-                            "name": "Vitality",
-                            "link": "/team/9565/vitality",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/ogcHrcCdzRvxbYvAz04KAN.png?ixlib=java-2.1.0&w=50&s=e1f6019aa9f274ffe45a5e99c88dbc02",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/yeXBldn9w8LZCgdElAenPs.png?ixlib=java-2.1.0&w=50&s=15eaba0b75250065d20162d2cb05e3e6"
-                        },
-                        "fantasyPlayerId": {
-                            "playerId": 9032
-                        },
-                        "statsLocation": "/stats/players/9032/magisk?startDate=2022-11-26&endDate=2023-05-26",
-                        "male": true
-                    }
-                },
-                {
-                    "cost": 245000,
-                    "playerData": {
-                        "name": "ZywOo",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/FR.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/cDLEVO33Lh8PtHQtUyF4Q9.png?ixlib=java-2.1.0&w=400&s=5ebc8a972b11d0fd81bfd922f4e0902c",
-                        "playerLevel": "GOLD",
-                        "stats": {
-                            "rating": "1.33",
-                            "ctRating": "1.39",
-                            "tRating": "1.27",
-                            "awpKillsPerRound": "0.26",
-                            "hsPercentage": "42.8%",
-                            "entryFragsPerRound": "13.9%",
-                            "cluthesPerRound": "1.9%",
-                            "supportRounds": "19.8%",
-                            "multiKillRounds": "21.6%",
-                            "dpr": "0.56"
-                        },
-                        "team": {
-                            "name": "Vitality",
-                            "link": "/team/9565/vitality",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/ogcHrcCdzRvxbYvAz04KAN.png?ixlib=java-2.1.0&w=50&s=e1f6019aa9f274ffe45a5e99c88dbc02",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/yeXBldn9w8LZCgdElAenPs.png?ixlib=java-2.1.0&w=50&s=15eaba0b75250065d20162d2cb05e3e6"
-                        },
-                        "fantasyPlayerId": {
-                            "playerId": 11893
-                        },
-                        "statsLocation": "/stats/players/11893/zywoo?startDate=2022-11-26&endDate=2023-05-26",
-                        "male": true
-                    }
-                },
-                {
-                    "cost": 218000,
-                    "playerData": {
-                        "name": "Spinx",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/IL.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/g48HwD49Zckp1HwfSPs1ln.png?ixlib=java-2.1.0&w=400&s=e38bf6a0c1516d109127a14d528cba87",
-                        "playerLevel": "GOLD",
-                        "stats": {
-                            "rating": "1.17",
-                            "ctRating": "1.17",
-                            "tRating": "1.18",
-                            "awpKillsPerRound": "0.01",
-                            "hsPercentage": "53.9%",
-                            "entryFragsPerRound": "10.0%",
+                            "hsPercentage": "46.9%",
+                            "entryFragsPerRound": "10.2%",
                             "cluthesPerRound": "0.9%",
-                            "supportRounds": "19.1%",
-                            "multiKillRounds": "19.1%",
-                            "dpr": "0.61"
-                        },
-                        "team": {
-                            "name": "Vitality",
-                            "link": "/team/9565/vitality",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/ogcHrcCdzRvxbYvAz04KAN.png?ixlib=java-2.1.0&w=50&s=e1f6019aa9f274ffe45a5e99c88dbc02",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/yeXBldn9w8LZCgdElAenPs.png?ixlib=java-2.1.0&w=50&s=15eaba0b75250065d20162d2cb05e3e6"
-                        },
-                        "fantasyPlayerId": {
-                            "playerId": 18221
-                        },
-                        "statsLocation": "/stats/players/18221/spinx?startDate=2022-11-26&endDate=2023-05-26",
-                        "male": true
-                    }
-                }
-            ],
-            "teamData": {
-                "name": "Vitality",
-                "link": "/team/9565/vitality",
-                "logoDay": "https://img-cdn.hltv.org/teamlogo/ogcHrcCdzRvxbYvAz04KAN.png?ixlib=java-2.1.0&w=50&s=e1f6019aa9f274ffe45a5e99c88dbc02",
-                "logoNight": "https://img-cdn.hltv.org/teamlogo/yeXBldn9w8LZCgdElAenPs.png?ixlib=java-2.1.0&w=50&s=15eaba0b75250065d20162d2cb05e3e6"
-            },
-            "rank": 1
-        },
-        {
-            "players": [
-                {
-                    "cost": 204000,
-                    "playerData": {
-                        "name": "cadiaN",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/LPx5hvA81pdvJlvThrFUiY.png?ixlib=java-2.1.0&w=400&s=f8b245d912ed237ef6f23a4a7efc5290",
-                        "playerLevel": "SILVER",
-                        "stats": {
-                            "rating": "1.07",
-                            "ctRating": "1.14",
-                            "tRating": "0.99",
-                            "awpKillsPerRound": "0.30",
-                            "hsPercentage": "29.3%",
-                            "entryFragsPerRound": "11.0%",
-                            "cluthesPerRound": "1.4%",
-                            "supportRounds": "21.0%",
-                            "multiKillRounds": "14.2%",
-                            "dpr": "0.59"
-                        },
-                        "team": {
-                            "name": "Heroic",
-                            "link": "/team/7175/heroic",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/6LVaK1MVX06kO1ChAq22v6.svg?ixlib=java-2.1.0&s=1ad0be7366aab3ef6825996762c3e615",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/6LVaK1MVX06kO1ChAq22v6.svg?ixlib=java-2.1.0&s=1ad0be7366aab3ef6825996762c3e615"
-                        },
-                        "fantasyPlayerId": {
-                            "playerId": 7964
-                        },
-                        "statsLocation": "/stats/players/7964/cadian?startDate=2022-11-26&endDate=2023-05-26",
-                        "male": true
-                    }
-                },
-                {
-                    "cost": 215000,
-                    "playerData": {
-                        "name": "stavn",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/7-vEqTQE4CAAFsXSVapF8p.png?ixlib=java-2.1.0&w=400&s=6b3cb8cd2e5b5b51a3cd057887c9dac3",
-                        "playerLevel": "GOLD",
-                        "stats": {
-                            "rating": "1.16",
-                            "ctRating": "1.20",
-                            "tRating": "1.11",
-                            "awpKillsPerRound": "0.02",
-                            "hsPercentage": "41.9%",
-                            "entryFragsPerRound": "10.8%",
-                            "cluthesPerRound": "0.9%",
-                            "supportRounds": "18.1%",
-                            "multiKillRounds": "18.4%",
-                            "dpr": "0.64"
-                        },
-                        "team": {
-                            "name": "Heroic",
-                            "link": "/team/7175/heroic",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/6LVaK1MVX06kO1ChAq22v6.svg?ixlib=java-2.1.0&s=1ad0be7366aab3ef6825996762c3e615",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/6LVaK1MVX06kO1ChAq22v6.svg?ixlib=java-2.1.0&s=1ad0be7366aab3ef6825996762c3e615"
-                        },
-                        "fantasyPlayerId": {
-                            "playerId": 10994
-                        },
-                        "statsLocation": "/stats/players/10994/stavn?startDate=2022-11-26&endDate=2023-05-26",
-                        "male": true
-                    }
-                },
-                {
-                    "cost": 196000,
-                    "playerData": {
-                        "name": "TeSeS",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/Ch1VId8enAzmbsiOZPvzds.png?ixlib=java-2.1.0&w=400&s=63cfeac2176a9af822ea9ba9abb6d555",
-                        "playerLevel": "SILVER",
-                        "stats": {
-                            "rating": "1.07",
-                            "ctRating": "1.11",
-                            "tRating": "1.02",
-                            "awpKillsPerRound": "0.00",
-                            "hsPercentage": "52.0%",
-                            "entryFragsPerRound": "11.1%",
-                            "cluthesPerRound": "1.0%",
-                            "supportRounds": "18.8%",
-                            "multiKillRounds": "15.7%",
-                            "dpr": "0.65"
-                        },
-                        "team": {
-                            "name": "Heroic",
-                            "link": "/team/7175/heroic",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/6LVaK1MVX06kO1ChAq22v6.svg?ixlib=java-2.1.0&s=1ad0be7366aab3ef6825996762c3e615",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/6LVaK1MVX06kO1ChAq22v6.svg?ixlib=java-2.1.0&s=1ad0be7366aab3ef6825996762c3e615"
-                        },
-                        "fantasyPlayerId": {
-                            "playerId": 12018
-                        },
-                        "statsLocation": "/stats/players/12018/teses?startDate=2022-11-26&endDate=2023-05-26",
-                        "male": true
-                    }
-                },
-                {
-                    "cost": 200000,
-                    "playerData": {
-                        "name": "sjuush",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/H4-F8tiCLLNLBg7PQ83pKY.png?ixlib=java-2.1.0&w=400&s=8d7f620fe1539ab79289c5a983a71644",
-                        "playerLevel": "SILVER",
-                        "stats": {
-                            "rating": "1.06",
-                            "ctRating": "1.10",
-                            "tRating": "1.02",
-                            "awpKillsPerRound": "0.01",
-                            "hsPercentage": "47.2%",
-                            "entryFragsPerRound": "8.7%",
-                            "cluthesPerRound": "0.9%",
-                            "supportRounds": "19.8%",
-                            "multiKillRounds": "15.8%",
-                            "dpr": "0.64"
-                        },
-                        "team": {
-                            "name": "Heroic",
-                            "link": "/team/7175/heroic",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/6LVaK1MVX06kO1ChAq22v6.svg?ixlib=java-2.1.0&s=1ad0be7366aab3ef6825996762c3e615",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/6LVaK1MVX06kO1ChAq22v6.svg?ixlib=java-2.1.0&s=1ad0be7366aab3ef6825996762c3e615"
-                        },
-                        "fantasyPlayerId": {
-                            "playerId": 14148
-                        },
-                        "statsLocation": "/stats/players/14148/sjuush?startDate=2022-11-26&endDate=2023-05-26",
-                        "male": true
-                    }
-                },
-                {
-                    "cost": 207000,
-                    "playerData": {
-                        "name": "jabbi",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/nerctHcVDo6Jodpj7ww-PC.png?ixlib=java-2.1.0&w=400&s=328d76b65b590f8d65eb74f364913974",
-                        "playerLevel": "SILVER",
-                        "stats": {
-                            "rating": "1.11",
-                            "ctRating": "1.12",
-                            "tRating": "1.10",
-                            "awpKillsPerRound": "0.00",
-                            "hsPercentage": "58.2%",
-                            "entryFragsPerRound": "10.6%",
-                            "cluthesPerRound": "1.1%",
-                            "supportRounds": "20.1%",
-                            "multiKillRounds": "17.2%",
-                            "dpr": "0.63"
-                        },
-                        "team": {
-                            "name": "Heroic",
-                            "link": "/team/7175/heroic",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/6LVaK1MVX06kO1ChAq22v6.svg?ixlib=java-2.1.0&s=1ad0be7366aab3ef6825996762c3e615",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/6LVaK1MVX06kO1ChAq22v6.svg?ixlib=java-2.1.0&s=1ad0be7366aab3ef6825996762c3e615"
-                        },
-                        "fantasyPlayerId": {
-                            "playerId": 17956
-                        },
-                        "statsLocation": "/stats/players/17956/jabbi?startDate=2022-11-26&endDate=2023-05-26",
-                        "male": true
-                    }
-                }
-            ],
-            "teamData": {
-                "name": "Heroic",
-                "link": "/team/7175/heroic",
-                "logoDay": "https://img-cdn.hltv.org/teamlogo/6LVaK1MVX06kO1ChAq22v6.svg?ixlib=java-2.1.0&s=1ad0be7366aab3ef6825996762c3e615",
-                "logoNight": "https://img-cdn.hltv.org/teamlogo/6LVaK1MVX06kO1ChAq22v6.svg?ixlib=java-2.1.0&s=1ad0be7366aab3ef6825996762c3e615"
-            },
-            "rank": 2
-        },
-        {
-            "players": [
-                {
-                    "cost": 171000,
-                    "playerData": {
-                        "name": "karrigan",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/HBq_UoWU_p_yC7jkxXD3Lp.png?ixlib=java-2.1.0&w=400&s=68522238b911e44997cad4e63d67398e",
-                        "stats": {
-                            "rating": "0.88",
-                            "ctRating": "0.95",
-                            "tRating": "0.81",
-                            "awpKillsPerRound": "0.00",
-                            "hsPercentage": "46.0%",
-                            "entryFragsPerRound": "9.9%",
-                            "cluthesPerRound": "0.9%",
-                            "supportRounds": "18.9%",
-                            "multiKillRounds": "11.1%",
-                            "dpr": "0.71"
-                        },
-                        "team": {
-                            "name": "FaZe",
-                            "link": "/team/6667/faze",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/SMhzsxzbkIrgqCOOKGRXlW.svg?ixlib=java-2.1.0&s=e6a9ce0345c7d703e5eaac14307f69aa",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/SMhzsxzbkIrgqCOOKGRXlW.svg?ixlib=java-2.1.0&s=e6a9ce0345c7d703e5eaac14307f69aa"
-                        },
-                        "fantasyPlayerId": {
-                            "playerId": 429
-                        },
-                        "statsLocation": "/stats/players/429/karrigan?startDate=2022-11-26&endDate=2023-05-26",
-                        "male": true
-                    }
-                },
-                {
-                    "cost": 199000,
-                    "playerData": {
-                        "name": "rain",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/NO.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/BcLwaUMx36y5OQHAVnLmhR.png?ixlib=java-2.1.0&w=400&s=93fd97d57d89f0c530b299405da9aaa5",
-                        "playerLevel": "SILVER",
-                        "stats": {
-                            "rating": "1.06",
-                            "ctRating": "1.15",
-                            "tRating": "0.97",
-                            "awpKillsPerRound": "0.00",
-                            "hsPercentage": "55.6%",
-                            "entryFragsPerRound": "13.3%",
-                            "cluthesPerRound": "1.3%",
-                            "supportRounds": "16.8%",
-                            "multiKillRounds": "15.9%",
+                            "supportRounds": "20.0%",
+                            "multiKillRounds": "13.0%",
                             "dpr": "0.69"
                         },
                         "team": {
-                            "name": "FaZe",
-                            "link": "/team/6667/faze",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/SMhzsxzbkIrgqCOOKGRXlW.svg?ixlib=java-2.1.0&s=e6a9ce0345c7d703e5eaac14307f69aa",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/SMhzsxzbkIrgqCOOKGRXlW.svg?ixlib=java-2.1.0&s=e6a9ce0345c7d703e5eaac14307f69aa"
+                            "name": "ENCE",
+                            "link": "/team/4869/ence",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/-X8NoyWC_1gYqUHvZqcpkc.svg?ixlib=java-2.1.0&s=85bb9daa6f846fa097c5942f2565fdb8",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/-X8NoyWC_1gYqUHvZqcpkc.svg?ixlib=java-2.1.0&s=85bb9daa6f846fa097c5942f2565fdb8"
                         },
                         "fantasyPlayerId": {
-                            "playerId": 8183
+                            "playerId": 922
                         },
-                        "statsLocation": "/stats/players/8183/rain?startDate=2022-11-26&endDate=2023-05-26",
+                        "statsLocation": "/stats/players/922/snappi?startDate=2022-12-01&endDate=2023-06-01",
                         "male": true
                     }
                 },
                 {
-                    "cost": 205000,
+                    "cost": 226000,
                     "playerData": {
-                        "name": "Twistzz",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/CA.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/MtlmsJNL2i-7kMiNcG5I8t.png?ixlib=java-2.1.0&w=400&s=a9c0718e152a595d660a763f5057a339",
-                        "playerLevel": "SILVER",
-                        "stats": {
-                            "rating": "1.09",
-                            "ctRating": "1.14",
-                            "tRating": "1.05",
-                            "awpKillsPerRound": "0.01",
-                            "hsPercentage": "55.2%",
-                            "entryFragsPerRound": "9.6%",
-                            "cluthesPerRound": "1.2%",
-                            "supportRounds": "20.2%",
-                            "multiKillRounds": "15.7%",
-                            "dpr": "0.63"
-                        },
-                        "team": {
-                            "name": "FaZe",
-                            "link": "/team/6667/faze",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/SMhzsxzbkIrgqCOOKGRXlW.svg?ixlib=java-2.1.0&s=e6a9ce0345c7d703e5eaac14307f69aa",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/SMhzsxzbkIrgqCOOKGRXlW.svg?ixlib=java-2.1.0&s=e6a9ce0345c7d703e5eaac14307f69aa"
-                        },
-                        "fantasyPlayerId": {
-                            "playerId": 10394
-                        },
-                        "statsLocation": "/stats/players/10394/twistzz?startDate=2022-11-26&endDate=2023-05-26",
-                        "male": true
-                    }
-                },
-                {
-                    "cost": 218000,
-                    "playerData": {
-                        "name": "ropz",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/EE.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/OYZih3h-_cJrZDFq5ButZP.png?ixlib=java-2.1.0&w=400&s=3edd66ad46b03465cc98d235a46297cf",
+                        "name": "NertZ",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/IL.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/CSE5aJJQxzbZ1-c2Yvpiad.png?ixlib=java-2.1.0&w=400&s=c4ce234b5cd64da0279ad42491e1482e",
                         "playerLevel": "GOLD",
                         "stats": {
                             "rating": "1.18",
-                            "ctRating": "1.16",
-                            "tRating": "1.20",
-                            "awpKillsPerRound": "0.02",
-                            "hsPercentage": "55.2%",
-                            "entryFragsPerRound": "10.2%",
-                            "cluthesPerRound": "1.8%",
-                            "supportRounds": "19.5%",
-                            "multiKillRounds": "19.2%",
-                            "dpr": "0.60"
-                        },
-                        "team": {
-                            "name": "FaZe",
-                            "link": "/team/6667/faze",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/SMhzsxzbkIrgqCOOKGRXlW.svg?ixlib=java-2.1.0&s=e6a9ce0345c7d703e5eaac14307f69aa",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/SMhzsxzbkIrgqCOOKGRXlW.svg?ixlib=java-2.1.0&s=e6a9ce0345c7d703e5eaac14307f69aa"
-                        },
-                        "fantasyPlayerId": {
-                            "playerId": 11816
-                        },
-                        "statsLocation": "/stats/players/11816/ropz?startDate=2022-11-26&endDate=2023-05-26",
-                        "male": true
-                    }
-                },
-                {
-                    "cost": 213000,
-                    "playerData": {
-                        "name": "broky",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/LV.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/uz_gYKYS-cjdlEJ-tpikrV.png?ixlib=java-2.1.0&w=400&s=61eea26e2076802840dacc42bf8fd4ea",
-                        "playerLevel": "SILVER",
-                        "stats": {
-                            "rating": "1.14",
                             "ctRating": "1.22",
-                            "tRating": "1.06",
-                            "awpKillsPerRound": "0.35",
-                            "hsPercentage": "33.1%",
-                            "entryFragsPerRound": "8.3%",
-                            "cluthesPerRound": "1.8%",
-                            "supportRounds": "18.2%",
-                            "multiKillRounds": "17.5%",
-                            "dpr": "0.59"
-                        },
-                        "team": {
-                            "name": "FaZe",
-                            "link": "/team/6667/faze",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/SMhzsxzbkIrgqCOOKGRXlW.svg?ixlib=java-2.1.0&s=e6a9ce0345c7d703e5eaac14307f69aa",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/SMhzsxzbkIrgqCOOKGRXlW.svg?ixlib=java-2.1.0&s=e6a9ce0345c7d703e5eaac14307f69aa"
-                        },
-                        "fantasyPlayerId": {
-                            "playerId": 18053
-                        },
-                        "statsLocation": "/stats/players/18053/broky?startDate=2022-11-26&endDate=2023-05-26",
-                        "male": true
-                    }
-                }
-            ],
-            "teamData": {
-                "name": "FaZe",
-                "link": "/team/6667/faze",
-                "logoDay": "https://img-cdn.hltv.org/teamlogo/SMhzsxzbkIrgqCOOKGRXlW.svg?ixlib=java-2.1.0&s=e6a9ce0345c7d703e5eaac14307f69aa",
-                "logoNight": "https://img-cdn.hltv.org/teamlogo/SMhzsxzbkIrgqCOOKGRXlW.svg?ixlib=java-2.1.0&s=e6a9ce0345c7d703e5eaac14307f69aa"
-            },
-            "rank": 3
-        },
-        {
-            "players": [
-                {
-                    "cost": 209000,
-                    "playerData": {
-                        "name": "HObbit",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/KZ.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/wef-bKS0wTfwOWwVxhmINF.png?ixlib=java-2.1.0&w=400&s=d4d52fc0850983d7e1a90b72ba081788",
-                        "playerLevel": "SILVER",
-                        "stats": {
-                            "rating": "1.13",
-                            "ctRating": "1.16",
-                            "tRating": "1.11",
+                            "tRating": "1.14",
                             "awpKillsPerRound": "0.01",
-                            "hsPercentage": "49.4%",
-                            "entryFragsPerRound": "13.7%",
-                            "cluthesPerRound": "0.9%",
-                            "supportRounds": "20.5%",
-                            "multiKillRounds": "16.8%",
-                            "dpr": "0.63"
-                        },
-                        "team": {
-                            "name": "Cloud9",
-                            "link": "/team/5752/cloud9",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/bEgST6XoNV4ZdenRKzCQyl.svg?ixlib=java-2.1.0&s=bd9b10a8dfe7b3640103745687389e3c",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/bEgST6XoNV4ZdenRKzCQyl.svg?ixlib=java-2.1.0&s=bd9b10a8dfe7b3640103745687389e3c"
-                        },
-                        "fantasyPlayerId": {
-                            "playerId": 8528
-                        },
-                        "statsLocation": "/stats/players/8528/hobbit?startDate=2022-11-26&endDate=2023-05-26",
-                        "male": true
-                    }
-                },
-                {
-                    "cost": 182000,
-                    "playerData": {
-                        "name": "buster",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/KZ.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/iHmReV66DHTx6rtQ-EXjMG.png?ixlib=java-2.1.0&w=400&s=ea3ed9f432f305601da26d9cdf5ea62e",
-                        "stats": {
-                            "rating": "0.97",
-                            "ctRating": "0.98",
-                            "tRating": "0.96",
-                            "awpKillsPerRound": "0.00",
-                            "hsPercentage": "46.2%",
-                            "entryFragsPerRound": "6.4%",
-                            "cluthesPerRound": "1.1%",
-                            "supportRounds": "24.1%",
-                            "multiKillRounds": "12.7%",
-                            "dpr": "0.60"
-                        },
-                        "team": {
-                            "name": "Cloud9",
-                            "link": "/team/5752/cloud9",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/bEgST6XoNV4ZdenRKzCQyl.svg?ixlib=java-2.1.0&s=bd9b10a8dfe7b3640103745687389e3c",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/bEgST6XoNV4ZdenRKzCQyl.svg?ixlib=java-2.1.0&s=bd9b10a8dfe7b3640103745687389e3c"
-                        },
-                        "fantasyPlayerId": {
-                            "playerId": 11942
-                        },
-                        "statsLocation": "/stats/players/11942/buster?startDate=2022-11-26&endDate=2023-05-26",
-                        "male": true
-                    }
-                },
-                {
-                    "cost": 220000,
-                    "playerData": {
-                        "name": "Ax1Le",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/JNG2MU0wL5AbyAioOs74oP.png?ixlib=java-2.1.0&w=400&s=dd1318a97169dcbcb3e04e3660243050",
-                        "playerLevel": "GOLD",
-                        "stats": {
-                            "rating": "1.19",
-                            "ctRating": "1.23",
-                            "tRating": "1.16",
-                            "awpKillsPerRound": "0.01",
-                            "hsPercentage": "48.8%",
-                            "entryFragsPerRound": "11.4%",
-                            "cluthesPerRound": "1.5%",
-                            "supportRounds": "19.3%",
-                            "multiKillRounds": "18.7%",
-                            "dpr": "0.62"
-                        },
-                        "team": {
-                            "name": "Cloud9",
-                            "link": "/team/5752/cloud9",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/bEgST6XoNV4ZdenRKzCQyl.svg?ixlib=java-2.1.0&s=bd9b10a8dfe7b3640103745687389e3c",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/bEgST6XoNV4ZdenRKzCQyl.svg?ixlib=java-2.1.0&s=bd9b10a8dfe7b3640103745687389e3c"
-                        },
-                        "fantasyPlayerId": {
-                            "playerId": 16555
-                        },
-                        "statsLocation": "/stats/players/16555/ax1le?startDate=2022-11-26&endDate=2023-05-26",
-                        "male": true
-                    }
-                },
-                {
-                    "cost": 232000,
-                    "playerData": {
-                        "name": "sh1ro",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/Tbckd7KhHhZMtjk3b8kczG.png?ixlib=java-2.1.0&w=400&s=a938e7c660a5182db55b4f1afa69663b",
-                        "playerLevel": "GOLD",
-                        "stats": {
-                            "rating": "1.28",
-                            "ctRating": "1.30",
-                            "tRating": "1.26",
-                            "awpKillsPerRound": "0.41",
-                            "hsPercentage": "30.6%",
-                            "entryFragsPerRound": "10.1%",
-                            "cluthesPerRound": "1.7%",
-                            "supportRounds": "19.8%",
-                            "multiKillRounds": "19.9%",
-                            "dpr": "0.54"
-                        },
-                        "team": {
-                            "name": "Cloud9",
-                            "link": "/team/5752/cloud9",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/bEgST6XoNV4ZdenRKzCQyl.svg?ixlib=java-2.1.0&s=bd9b10a8dfe7b3640103745687389e3c",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/bEgST6XoNV4ZdenRKzCQyl.svg?ixlib=java-2.1.0&s=bd9b10a8dfe7b3640103745687389e3c"
-                        },
-                        "fantasyPlayerId": {
-                            "playerId": 16920
-                        },
-                        "statsLocation": "/stats/players/16920/sh1ro?startDate=2022-11-26&endDate=2023-05-26",
-                        "male": true
-                    }
-                },
-                {
-                    "cost": 176000,
-                    "playerData": {
-                        "name": "nafany",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/OpD5yOSKlcmjK_b5tjSdj3.png?ixlib=java-2.1.0&w=400&s=330e92aa83e286fc7895dd7fcc6e3adc",
-                        "stats": {
-                            "rating": "0.94",
-                            "ctRating": "0.97",
-                            "tRating": "0.91",
-                            "awpKillsPerRound": "0.01",
-                            "hsPercentage": "50.8%",
-                            "entryFragsPerRound": "11.7%",
-                            "cluthesPerRound": "0.4%",
-                            "supportRounds": "18.9%",
-                            "multiKillRounds": "12.9%",
-                            "dpr": "0.70"
-                        },
-                        "team": {
-                            "name": "Cloud9",
-                            "link": "/team/5752/cloud9",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/bEgST6XoNV4ZdenRKzCQyl.svg?ixlib=java-2.1.0&s=bd9b10a8dfe7b3640103745687389e3c",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/bEgST6XoNV4ZdenRKzCQyl.svg?ixlib=java-2.1.0&s=bd9b10a8dfe7b3640103745687389e3c"
-                        },
-                        "fantasyPlayerId": {
-                            "playerId": 16921
-                        },
-                        "statsLocation": "/stats/players/16921/nafany?startDate=2022-11-26&endDate=2023-05-26",
-                        "male": true
-                    }
-                }
-            ],
-            "teamData": {
-                "name": "Cloud9",
-                "link": "/team/5752/cloud9",
-                "logoDay": "https://img-cdn.hltv.org/teamlogo/bEgST6XoNV4ZdenRKzCQyl.svg?ixlib=java-2.1.0&s=bd9b10a8dfe7b3640103745687389e3c",
-                "logoNight": "https://img-cdn.hltv.org/teamlogo/bEgST6XoNV4ZdenRKzCQyl.svg?ixlib=java-2.1.0&s=bd9b10a8dfe7b3640103745687389e3c"
-            },
-            "rank": 6
-        },
-        {
-            "players": [
-                {
-                    "cost": 220000,
-                    "playerData": {
-                        "name": "NiKo",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/BA.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/ryEzkk38b_L-5BdkIG23c3.png?ixlib=java-2.1.0&w=400&s=62e42f9862a878e552236e0df10e7249",
-                        "playerLevel": "GOLD",
-                        "stats": {
-                            "rating": "1.20",
-                            "ctRating": "1.20",
-                            "tRating": "1.19",
-                            "awpKillsPerRound": "0.01",
-                            "hsPercentage": "53.6%",
+                            "hsPercentage": "52.3%",
                             "entryFragsPerRound": "14.5%",
                             "cluthesPerRound": "1.3%",
-                            "supportRounds": "19.2%",
+                            "supportRounds": "16.8%",
                             "multiKillRounds": "19.7%",
-                            "dpr": "0.63"
+                            "dpr": "0.66"
                         },
                         "team": {
-                            "name": "G2",
-                            "link": "/team/5995/g2",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/zFLwAELOD15BjJSDMMNBWQ.png?ixlib=java-2.1.0&w=50&s=affb583e6716d8ee904826992255cc4b",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/zFLwAELOD15BjJSDMMNBWQ.png?ixlib=java-2.1.0&w=50&s=affb583e6716d8ee904826992255cc4b"
+                            "name": "ENCE",
+                            "link": "/team/4869/ence",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/-X8NoyWC_1gYqUHvZqcpkc.svg?ixlib=java-2.1.0&s=85bb9daa6f846fa097c5942f2565fdb8",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/-X8NoyWC_1gYqUHvZqcpkc.svg?ixlib=java-2.1.0&s=85bb9daa6f846fa097c5942f2565fdb8"
                         },
                         "fantasyPlayerId": {
-                            "playerId": 3741
+                            "playerId": 9436
                         },
-                        "statsLocation": "/stats/players/3741/niko?startDate=2022-11-26&endDate=2023-05-26",
-                        "male": true
-                    }
-                },
-                {
-                    "cost": 206000,
-                    "playerData": {
-                        "name": "huNter-",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/BA.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/JLe3rUhWZC-HbEhh3PhQvz.png?ixlib=java-2.1.0&w=400&s=279647d28d5b2006cba10866faeab816",
-                        "playerLevel": "SILVER",
-                        "stats": {
-                            "rating": "1.12",
-                            "ctRating": "1.12",
-                            "tRating": "1.12",
-                            "awpKillsPerRound": "0.00",
-                            "hsPercentage": "46.0%",
-                            "entryFragsPerRound": "8.8%",
-                            "cluthesPerRound": "0.9%",
-                            "supportRounds": "17.7%",
-                            "multiKillRounds": "16.7%",
-                            "dpr": "0.63"
-                        },
-                        "team": {
-                            "name": "G2",
-                            "link": "/team/5995/g2",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/zFLwAELOD15BjJSDMMNBWQ.png?ixlib=java-2.1.0&w=50&s=affb583e6716d8ee904826992255cc4b",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/zFLwAELOD15BjJSDMMNBWQ.png?ixlib=java-2.1.0&w=50&s=affb583e6716d8ee904826992255cc4b"
-                        },
-                        "fantasyPlayerId": {
-                            "playerId": 3972
-                        },
-                        "statsLocation": "/stats/players/3972/hunter?startDate=2022-11-26&endDate=2023-05-26",
+                        "statsLocation": "/stats/players/9436/nertz?startDate=2022-12-01&endDate=2023-06-01",
                         "male": true
                     }
                 },
                 {
                     "cost": 207000,
                     "playerData": {
-                        "name": "jks",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/AU.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/E0oAsznGp67mqgNjGGOZia.png?ixlib=java-2.1.0&w=400&s=850c7701777957dbf957d845b7fd9f09",
+                        "name": "Maden",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/ME.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/0DHr1zgMuykiW51TI56B1t.png?ixlib=java-2.1.0&w=400&s=f566ab8739c8b6609c68865d7d532116",
                         "playerLevel": "SILVER",
                         "stats": {
-                            "rating": "1.12",
-                            "ctRating": "1.13",
-                            "tRating": "1.11",
-                            "awpKillsPerRound": "0.00",
-                            "hsPercentage": "55.1%",
-                            "entryFragsPerRound": "7.4%",
-                            "cluthesPerRound": "1.9%",
-                            "supportRounds": "23.6%",
-                            "multiKillRounds": "16.5%",
-                            "dpr": "0.58"
-                        },
-                        "team": {
-                            "name": "G2",
-                            "link": "/team/5995/g2",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/zFLwAELOD15BjJSDMMNBWQ.png?ixlib=java-2.1.0&w=50&s=affb583e6716d8ee904826992255cc4b",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/zFLwAELOD15BjJSDMMNBWQ.png?ixlib=java-2.1.0&w=50&s=affb583e6716d8ee904826992255cc4b"
-                        },
-                        "fantasyPlayerId": {
-                            "playerId": 4679
-                        },
-                        "statsLocation": "/stats/players/4679/jks?startDate=2022-11-26&endDate=2023-05-26",
-                        "male": true
-                    }
-                },
-                {
-                    "cost": 169000,
-                    "playerData": {
-                        "name": "HooXi",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/ZD7YDVWTDqZ5Bf8hEagZMi.png?ixlib=java-2.1.0&w=400&s=f4af7f7c4f2593c024c0dcbb3c9f1168",
-                        "stats": {
-                            "rating": "0.87",
-                            "ctRating": "0.86",
-                            "tRating": "0.88",
-                            "awpKillsPerRound": "0.01",
-                            "hsPercentage": "53.0%",
-                            "entryFragsPerRound": "7.7%",
-                            "cluthesPerRound": "0.8%",
-                            "supportRounds": "20.6%",
-                            "multiKillRounds": "10.8%",
-                            "dpr": "0.67"
-                        },
-                        "team": {
-                            "name": "G2",
-                            "link": "/team/5995/g2",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/zFLwAELOD15BjJSDMMNBWQ.png?ixlib=java-2.1.0&w=50&s=affb583e6716d8ee904826992255cc4b",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/zFLwAELOD15BjJSDMMNBWQ.png?ixlib=java-2.1.0&w=50&s=affb583e6716d8ee904826992255cc4b"
-                        },
-                        "fantasyPlayerId": {
-                            "playerId": 10096
-                        },
-                        "statsLocation": "/stats/players/10096/hooxi?startDate=2022-11-26&endDate=2023-05-26",
-                        "male": true
-                    }
-                },
-                {
-                    "cost": 222000,
-                    "playerData": {
-                        "name": "m0NESY",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/aGl4zm62SBHK44DuGvb_91.png?ixlib=java-2.1.0&w=400&s=1393e027bbd92e38bba88f77e8be1ef9",
-                        "playerLevel": "GOLD",
-                        "stats": {
-                            "rating": "1.21",
-                            "ctRating": "1.25",
-                            "tRating": "1.16",
-                            "awpKillsPerRound": "0.42",
-                            "hsPercentage": "34.6%",
-                            "entryFragsPerRound": "13.1%",
-                            "cluthesPerRound": "1.3%",
-                            "supportRounds": "19.7%",
-                            "multiKillRounds": "19.2%",
-                            "dpr": "0.56"
-                        },
-                        "team": {
-                            "name": "G2",
-                            "link": "/team/5995/g2",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/zFLwAELOD15BjJSDMMNBWQ.png?ixlib=java-2.1.0&w=50&s=affb583e6716d8ee904826992255cc4b",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/zFLwAELOD15BjJSDMMNBWQ.png?ixlib=java-2.1.0&w=50&s=affb583e6716d8ee904826992255cc4b"
-                        },
-                        "fantasyPlayerId": {
-                            "playerId": 19230
-                        },
-                        "statsLocation": "/stats/players/19230/m0nesy?startDate=2022-11-26&endDate=2023-05-26",
-                        "male": true
-                    }
-                }
-            ],
-            "teamData": {
-                "name": "G2",
-                "link": "/team/5995/g2",
-                "logoDay": "https://img-cdn.hltv.org/teamlogo/zFLwAELOD15BjJSDMMNBWQ.png?ixlib=java-2.1.0&w=50&s=affb583e6716d8ee904826992255cc4b",
-                "logoNight": "https://img-cdn.hltv.org/teamlogo/zFLwAELOD15BjJSDMMNBWQ.png?ixlib=java-2.1.0&w=50&s=affb583e6716d8ee904826992255cc4b"
-            },
-            "rank": 5
-        },
-        {
-            "players": [
-                {
-                    "cost": 167000,
-                    "playerData": {
-                        "name": "JT",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/ZA.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/gTE76DXI0j94vh6GQCAe4E.png?ixlib=java-2.1.0&w=400&s=f7c9654ad89f31faedc7d99944e2e92f",
-                        "stats": {
-                            "rating": "0.95",
-                            "ctRating": "0.93",
-                            "tRating": "0.97",
-                            "awpKillsPerRound": "0.00",
-                            "hsPercentage": "53.8%",
-                            "entryFragsPerRound": "11.2%",
-                            "cluthesPerRound": "1.2%",
-                            "supportRounds": "18.1%",
-                            "multiKillRounds": "13.1%",
-                            "dpr": "0.70"
-                        },
-                        "team": {
-                            "name": "Complexity",
-                            "link": "/team/5005/complexity",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/R0CzydpyX02BnkAYhy3I89.svg?ixlib=java-2.1.0&s=8c5833d6069ef924fdbb2e220fefea00",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/0-i_bEjrf3v4eYqaG0Bix7.svg?ixlib=java-2.1.0&s=4eecbec277f018772a9b92c22da1a459"
-                        },
-                        "fantasyPlayerId": {
-                            "playerId": 11630
-                        },
-                        "statsLocation": "/stats/players/11630/jt?startDate=2022-11-26&endDate=2023-05-26",
-                        "male": true
-                    }
-                },
-                {
-                    "cost": 177000,
-                    "playerData": {
-                        "name": "floppy",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/US.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/c2GqeZr6IKmAl0uaV55GN9.png?ixlib=java-2.1.0&w=400&s=893f25b0ba5d47651d78cf54fc111e64",
-                        "stats": {
-                            "rating": "1.00",
-                            "ctRating": "0.95",
-                            "tRating": "1.05",
-                            "awpKillsPerRound": "0.00",
-                            "hsPercentage": "48.3%",
-                            "entryFragsPerRound": "6.8%",
-                            "cluthesPerRound": "1.5%",
-                            "supportRounds": "23.9%",
-                            "multiKillRounds": "14.1%",
-                            "dpr": "0.63"
-                        },
-                        "team": {
-                            "name": "Complexity",
-                            "link": "/team/5005/complexity",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/R0CzydpyX02BnkAYhy3I89.svg?ixlib=java-2.1.0&s=8c5833d6069ef924fdbb2e220fefea00",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/0-i_bEjrf3v4eYqaG0Bix7.svg?ixlib=java-2.1.0&s=4eecbec277f018772a9b92c22da1a459"
-                        },
-                        "fantasyPlayerId": {
-                            "playerId": 12713
-                        },
-                        "statsLocation": "/stats/players/12713/floppy?startDate=2022-11-26&endDate=2023-05-26",
-                        "male": true
-                    }
-                },
-                {
-                    "cost": 188000,
-                    "playerData": {
-                        "name": "Sonic",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/ZA.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/YrlM5FoCrwjJlRIpiITCXV.png?ixlib=java-2.1.0&w=400&s=9b45b6f56591162de89cd410912e277d",
-                        "playerLevel": "SILVER",
-                        "stats": {},
-                        "team": {
-                            "name": "Complexity",
-                            "link": "/team/5005/complexity",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/R0CzydpyX02BnkAYhy3I89.svg?ixlib=java-2.1.0&s=8c5833d6069ef924fdbb2e220fefea00",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/0-i_bEjrf3v4eYqaG0Bix7.svg?ixlib=java-2.1.0&s=4eecbec277f018772a9b92c22da1a459"
-                        },
-                        "fantasyPlayerId": {
-                            "playerId": 12840
-                        },
-                        "statsLocation": "/stats/players/8711/sonic?startDate=2022-11-26&endDate=2023-05-26",
-                        "male": true
-                    }
-                },
-                {
-                    "cost": 200000,
-                    "playerData": {
-                        "name": "Grim",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/US.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/dpKrUiYvetALnNMROZ2AaR.png?ixlib=java-2.1.0&w=400&s=fa422c09fbe8ea574d1b40cd441029d6",
-                        "playerLevel": "SILVER",
-                        "stats": {
-                            "rating": "1.13",
-                            "ctRating": "1.12",
-                            "tRating": "1.14",
-                            "awpKillsPerRound": "0.01",
-                            "hsPercentage": "52.6%",
-                            "entryFragsPerRound": "11.6%",
-                            "cluthesPerRound": "1.3%",
-                            "supportRounds": "16.1%",
-                            "multiKillRounds": "18.8%",
-                            "dpr": "0.69"
-                        },
-                        "team": {
-                            "name": "Complexity",
-                            "link": "/team/5005/complexity",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/R0CzydpyX02BnkAYhy3I89.svg?ixlib=java-2.1.0&s=8c5833d6069ef924fdbb2e220fefea00",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/0-i_bEjrf3v4eYqaG0Bix7.svg?ixlib=java-2.1.0&s=4eecbec277f018772a9b92c22da1a459"
-                        },
-                        "fantasyPlayerId": {
-                            "playerId": 13578
-                        },
-                        "statsLocation": "/stats/players/13578/grim?startDate=2022-11-26&endDate=2023-05-26",
-                        "male": true
-                    }
-                },
-                {
-                    "cost": 181000,
-                    "playerData": {
-                        "name": "FaNg",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/CA.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/nfQTxaPem3_-L59KKwmYIg.png?ixlib=java-2.1.0&w=400&s=8ab7548450b577649f82cda168a82d53",
-                        "stats": {
-                            "rating": "1.03",
-                            "ctRating": "1.05",
-                            "tRating": "1.00",
-                            "awpKillsPerRound": "0.01",
-                            "hsPercentage": "55.9%",
-                            "entryFragsPerRound": "9.6%",
-                            "cluthesPerRound": "1.1%",
-                            "supportRounds": "18.2%",
-                            "multiKillRounds": "15.2%",
-                            "dpr": "0.67"
-                        },
-                        "team": {
-                            "name": "Complexity",
-                            "link": "/team/5005/complexity",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/R0CzydpyX02BnkAYhy3I89.svg?ixlib=java-2.1.0&s=8c5833d6069ef924fdbb2e220fefea00",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/0-i_bEjrf3v4eYqaG0Bix7.svg?ixlib=java-2.1.0&s=4eecbec277f018772a9b92c22da1a459"
-                        },
-                        "fantasyPlayerId": {
-                            "playerId": 17372
-                        },
-                        "statsLocation": "/stats/players/17372/fang?startDate=2022-11-26&endDate=2023-05-26",
-                        "male": true
-                    }
-                }
-            ],
-            "teamData": {
-                "name": "Complexity",
-                "link": "/team/5005/complexity",
-                "logoDay": "https://img-cdn.hltv.org/teamlogo/R0CzydpyX02BnkAYhy3I89.svg?ixlib=java-2.1.0&s=8c5833d6069ef924fdbb2e220fefea00",
-                "logoNight": "https://img-cdn.hltv.org/teamlogo/0-i_bEjrf3v4eYqaG0Bix7.svg?ixlib=java-2.1.0&s=4eecbec277f018772a9b92c22da1a459"
-            },
-            "rank": 25
-        },
-        {
-            "players": [
-                {
-                    "cost": 176000,
-                    "playerData": {
-                        "name": "gla1ve",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/wF70Mh7ZoZxECIUMF6kz2h.png?ixlib=java-2.1.0&w=400&s=2d5e6c3e218dc0becd7f1dd6d60a5a88",
-                        "stats": {
-                            "rating": "1.00",
+                            "rating": "1.02",
                             "ctRating": "1.02",
-                            "tRating": "0.97",
+                            "tRating": "1.03",
                             "awpKillsPerRound": "0.01",
-                            "hsPercentage": "49.0%",
-                            "entryFragsPerRound": "8.9%",
-                            "cluthesPerRound": "0.7%",
-                            "supportRounds": "21.2%",
-                            "multiKillRounds": "13.9%",
-                            "dpr": "0.64"
+                            "hsPercentage": "52.7%",
+                            "entryFragsPerRound": "10.6%",
+                            "cluthesPerRound": "0.9%",
+                            "supportRounds": "18.0%",
+                            "multiKillRounds": "15.6%",
+                            "dpr": "0.68"
                         },
                         "team": {
-                            "name": "Astralis",
-                            "link": "/team/6665/astralis",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/9bgXHp-oh1oaXr7F0mTGmd.svg?ixlib=java-2.1.0&s=f567161ab183001be33948b98c4b2067",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/9bgXHp-oh1oaXr7F0mTGmd.svg?ixlib=java-2.1.0&s=f567161ab183001be33948b98c4b2067"
+                            "name": "ENCE",
+                            "link": "/team/4869/ence",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/-X8NoyWC_1gYqUHvZqcpkc.svg?ixlib=java-2.1.0&s=85bb9daa6f846fa097c5942f2565fdb8",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/-X8NoyWC_1gYqUHvZqcpkc.svg?ixlib=java-2.1.0&s=85bb9daa6f846fa097c5942f2565fdb8"
                         },
                         "fantasyPlayerId": {
-                            "playerId": 7412
+                            "playerId": 11777
                         },
-                        "statsLocation": "/stats/players/7412/gla1ve?startDate=2022-11-26&endDate=2023-05-26",
-                        "male": true
-                    }
-                },
-                {
-                    "cost": 222000,
-                    "playerData": {
-                        "name": "device",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/7ekOWJWIHJwwQARzAlKGqL.png?ixlib=java-2.1.0&w=400&s=c9dad87cfe515731c0a166c843e288be",
-                        "playerLevel": "GOLD",
-                        "stats": {
-                            "rating": "1.24",
-                            "ctRating": "1.29",
-                            "tRating": "1.19",
-                            "awpKillsPerRound": "0.36",
-                            "hsPercentage": "34.1%",
-                            "entryFragsPerRound": "15.4%",
-                            "cluthesPerRound": "1.4%",
-                            "supportRounds": "16.2%",
-                            "multiKillRounds": "19.4%",
-                            "dpr": "0.60"
-                        },
-                        "team": {
-                            "name": "Astralis",
-                            "link": "/team/6665/astralis",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/9bgXHp-oh1oaXr7F0mTGmd.svg?ixlib=java-2.1.0&s=f567161ab183001be33948b98c4b2067",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/9bgXHp-oh1oaXr7F0mTGmd.svg?ixlib=java-2.1.0&s=f567161ab183001be33948b98c4b2067"
-                        },
-                        "fantasyPlayerId": {
-                            "playerId": 7592
-                        },
-                        "statsLocation": "/stats/players/7592/device?startDate=2022-11-26&endDate=2023-05-26",
+                        "statsLocation": "/stats/players/11777/maden?startDate=2022-12-01&endDate=2023-06-01",
                         "male": true
                     }
                 },
                 {
                     "cost": 219000,
                     "playerData": {
-                        "name": "blameF",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/2E6cPM2mB5MHoAXrP9fMlr.png?ixlib=java-2.1.0&w=400&s=e15f3d4349c719e0b63ce0d17bf1fe93",
+                        "name": "dycha",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/PL.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/2wHhhKTMmOLlBXfn5aiq8u.png?ixlib=java-2.1.0&w=400&s=32710ef961c1a88c8af71218701a95ed",
                         "playerLevel": "GOLD",
                         "stats": {
-                            "rating": "1.26",
-                            "ctRating": "1.31",
-                            "tRating": "1.22",
+                            "rating": "1.12",
+                            "ctRating": "1.13",
+                            "tRating": "1.11",
                             "awpKillsPerRound": "0.00",
-                            "hsPercentage": "37.8%",
-                            "entryFragsPerRound": "13.8%",
-                            "cluthesPerRound": "1.6%",
-                            "supportRounds": "19.2%",
-                            "multiKillRounds": "19.1%",
-                            "dpr": "0.60"
+                            "hsPercentage": "49.7%",
+                            "entryFragsPerRound": "8.9%",
+                            "cluthesPerRound": "0.9%",
+                            "supportRounds": "21.2%",
+                            "multiKillRounds": "18.3%",
+                            "dpr": "0.64"
                         },
                         "team": {
-                            "name": "Astralis",
-                            "link": "/team/6665/astralis",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/9bgXHp-oh1oaXr7F0mTGmd.svg?ixlib=java-2.1.0&s=f567161ab183001be33948b98c4b2067",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/9bgXHp-oh1oaXr7F0mTGmd.svg?ixlib=java-2.1.0&s=f567161ab183001be33948b98c4b2067"
+                            "name": "ENCE",
+                            "link": "/team/4869/ence",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/-X8NoyWC_1gYqUHvZqcpkc.svg?ixlib=java-2.1.0&s=85bb9daa6f846fa097c5942f2565fdb8",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/-X8NoyWC_1gYqUHvZqcpkc.svg?ixlib=java-2.1.0&s=85bb9daa6f846fa097c5942f2565fdb8"
                         },
                         "fantasyPlayerId": {
-                            "playerId": 15165
+                            "playerId": 16080
                         },
-                        "statsLocation": "/stats/players/15165/blamef?startDate=2022-11-26&endDate=2023-05-26",
+                        "statsLocation": "/stats/players/16080/dycha?startDate=2022-12-01&endDate=2023-06-01",
+                        "male": true
+                    }
+                },
+                {
+                    "cost": 219000,
+                    "playerData": {
+                        "name": "SunPayus",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/ES.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/Yr4pnhhkgN5pPRpdkzAV4Z.png?ixlib=java-2.1.0&w=400&s=eab0b361e8a4327030284564d80cfc73",
+                        "playerLevel": "GOLD",
+                        "stats": {
+                            "rating": "1.11",
+                            "ctRating": "1.17",
+                            "tRating": "1.06",
+                            "awpKillsPerRound": "0.33",
+                            "hsPercentage": "28.0%",
+                            "entryFragsPerRound": "11.6%",
+                            "cluthesPerRound": "1.5%",
+                            "supportRounds": "21.4%",
+                            "multiKillRounds": "16.1%",
+                            "dpr": "0.56"
+                        },
+                        "team": {
+                            "name": "ENCE",
+                            "link": "/team/4869/ence",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/-X8NoyWC_1gYqUHvZqcpkc.svg?ixlib=java-2.1.0&s=85bb9daa6f846fa097c5942f2565fdb8",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/-X8NoyWC_1gYqUHvZqcpkc.svg?ixlib=java-2.1.0&s=85bb9daa6f846fa097c5942f2565fdb8"
+                        },
+                        "fantasyPlayerId": {
+                            "playerId": 19164
+                        },
+                        "statsLocation": "/stats/players/19164/sunpayus?startDate=2022-12-01&endDate=2023-06-01",
+                        "male": true
+                    }
+                }
+            ],
+            "teamData": {
+                "name": "ENCE",
+                "link": "/team/4869/ence",
+                "logoDay": "https://img-cdn.hltv.org/teamlogo/-X8NoyWC_1gYqUHvZqcpkc.svg?ixlib=java-2.1.0&s=85bb9daa6f846fa097c5942f2565fdb8",
+                "logoNight": "https://img-cdn.hltv.org/teamlogo/-X8NoyWC_1gYqUHvZqcpkc.svg?ixlib=java-2.1.0&s=85bb9daa6f846fa097c5942f2565fdb8"
+            },
+            "rank": 4
+        },
+        {
+            "players": [
+                {
+                    "cost": 199000,
+                    "playerData": {
+                        "name": "Krad",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/QZ_zS3e8skrhChdyQgQuWR.png?ixlib=java-2.1.0&w=400&s=14d23ab9c3fe37fcfa90a53dd01e8b28",
+                        "playerLevel": "SILVER",
+                        "stats": {
+                            "rating": "1.02",
+                            "ctRating": "1.00",
+                            "tRating": "1.04",
+                            "awpKillsPerRound": "0.01",
+                            "hsPercentage": "50.6%",
+                            "entryFragsPerRound": "10.8%",
+                            "cluthesPerRound": "0.9%",
+                            "supportRounds": "19.0%",
+                            "multiKillRounds": "15.2%",
+                            "dpr": "0.67"
+                        },
+                        "team": {
+                            "name": "FORZE",
+                            "link": "/team/8135/forze",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/x0iXzbuTd75816rzdvXwnQ.png?ixlib=java-2.1.0&w=50&s=37c00d1a45352772ac1211efddb163eb",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/x0iXzbuTd75816rzdvXwnQ.png?ixlib=java-2.1.0&w=50&s=37c00d1a45352772ac1211efddb163eb"
+                        },
+                        "fantasyPlayerId": {
+                            "playerId": 12027
+                        },
+                        "statsLocation": "/stats/players/12027/krad?startDate=2022-12-01&endDate=2023-06-01",
+                        "male": true
+                    }
+                },
+                {
+                    "cost": 195000,
+                    "playerData": {
+                        "name": "Jerry",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/jQKgKDBqEXV8aul_UcOjC_.png?ixlib=java-2.1.0&w=400&s=4b6aa7f8fd91d5325968090016703b10",
+                        "playerLevel": "SILVER",
+                        "stats": {
+                            "rating": "1.01",
+                            "ctRating": "1.02",
+                            "tRating": "1.01",
+                            "awpKillsPerRound": "0.01",
+                            "hsPercentage": "44.7%",
+                            "entryFragsPerRound": "9.9%",
+                            "cluthesPerRound": "1.0%",
+                            "supportRounds": "18.6%",
+                            "multiKillRounds": "14.7%",
+                            "dpr": "0.67"
+                        },
+                        "team": {
+                            "name": "FORZE",
+                            "link": "/team/8135/forze",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/x0iXzbuTd75816rzdvXwnQ.png?ixlib=java-2.1.0&w=50&s=37c00d1a45352772ac1211efddb163eb",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/x0iXzbuTd75816rzdvXwnQ.png?ixlib=java-2.1.0&w=50&s=37c00d1a45352772ac1211efddb163eb"
+                        },
+                        "fantasyPlayerId": {
+                            "playerId": 13157
+                        },
+                        "statsLocation": "/stats/players/13157/jerry?startDate=2022-12-01&endDate=2023-06-01",
+                        "male": true
+                    }
+                },
+                {
+                    "cost": 213000,
+                    "playerData": {
+                        "name": "zorte",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/pc7WZPg8UMe4lCtM1p2e6L.png?ixlib=java-2.1.0&w=400&s=4f7882c4305b65ab293be1728333d48e",
+                        "playerLevel": "SILVER",
+                        "stats": {
+                            "rating": "1.12",
+                            "ctRating": "1.18",
+                            "tRating": "1.07",
+                            "awpKillsPerRound": "0.35",
+                            "hsPercentage": "33.8%",
+                            "entryFragsPerRound": "10.7%",
+                            "cluthesPerRound": "1.8%",
+                            "supportRounds": "20.6%",
+                            "multiKillRounds": "16.9%",
+                            "dpr": "0.57"
+                        },
+                        "team": {
+                            "name": "FORZE",
+                            "link": "/team/8135/forze",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/x0iXzbuTd75816rzdvXwnQ.png?ixlib=java-2.1.0&w=50&s=37c00d1a45352772ac1211efddb163eb",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/x0iXzbuTd75816rzdvXwnQ.png?ixlib=java-2.1.0&w=50&s=37c00d1a45352772ac1211efddb163eb"
+                        },
+                        "fantasyPlayerId": {
+                            "playerId": 15662
+                        },
+                        "statsLocation": "/stats/players/15662/zorte?startDate=2022-12-01&endDate=2023-06-01",
+                        "male": true
+                    }
+                },
+                {
+                    "cost": 214000,
+                    "playerData": {
+                        "name": "shalfey",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/0DIX92ABFI-kAzLRwO9wm8.png?ixlib=java-2.1.0&w=400&s=1fe03b019ad8ba7dcd72bea0527bd477",
+                        "playerLevel": "SILVER",
+                        "stats": {
+                            "rating": "1.13",
+                            "ctRating": "1.16",
+                            "tRating": "1.10",
+                            "awpKillsPerRound": "0.01",
+                            "hsPercentage": "47.5%",
+                            "entryFragsPerRound": "10.2%",
+                            "cluthesPerRound": "1.4%",
+                            "supportRounds": "19.5%",
+                            "multiKillRounds": "17.1%",
+                            "dpr": "0.63"
+                        },
+                        "team": {
+                            "name": "FORZE",
+                            "link": "/team/8135/forze",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/x0iXzbuTd75816rzdvXwnQ.png?ixlib=java-2.1.0&w=50&s=37c00d1a45352772ac1211efddb163eb",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/x0iXzbuTd75816rzdvXwnQ.png?ixlib=java-2.1.0&w=50&s=37c00d1a45352772ac1211efddb163eb"
+                        },
+                        "fantasyPlayerId": {
+                            "playerId": 17011
+                        },
+                        "statsLocation": "/stats/players/17011/shalfey?startDate=2022-12-01&endDate=2023-06-01",
+                        "male": true
+                    }
+                },
+                {
+                    "cost": 204000,
+                    "playerData": {
+                        "name": "r3salt",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/MXMqBI637--gU4PYhrJ40e.png?ixlib=java-2.1.0&w=400&s=32fcbc120d1c9667f3aaacc70d72e1da",
+                        "playerLevel": "SILVER",
+                        "stats": {
+                            "rating": "1.06",
+                            "ctRating": "1.04",
+                            "tRating": "1.08",
+                            "awpKillsPerRound": "0.00",
+                            "hsPercentage": "59.1%",
+                            "entryFragsPerRound": "9.5%",
+                            "cluthesPerRound": "1.1%",
+                            "supportRounds": "16.7%",
+                            "multiKillRounds": "17.4%",
+                            "dpr": "0.68"
+                        },
+                        "team": {
+                            "name": "FORZE",
+                            "link": "/team/8135/forze",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/x0iXzbuTd75816rzdvXwnQ.png?ixlib=java-2.1.0&w=50&s=37c00d1a45352772ac1211efddb163eb",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/x0iXzbuTd75816rzdvXwnQ.png?ixlib=java-2.1.0&w=50&s=37c00d1a45352772ac1211efddb163eb"
+                        },
+                        "fantasyPlayerId": {
+                            "playerId": 20709
+                        },
+                        "statsLocation": "/stats/players/20709/r3salt?startDate=2022-12-01&endDate=2023-06-01",
+                        "male": true
+                    }
+                }
+            ],
+            "teamData": {
+                "name": "FORZE",
+                "link": "/team/8135/forze",
+                "logoDay": "https://img-cdn.hltv.org/teamlogo/x0iXzbuTd75816rzdvXwnQ.png?ixlib=java-2.1.0&w=50&s=37c00d1a45352772ac1211efddb163eb",
+                "logoNight": "https://img-cdn.hltv.org/teamlogo/x0iXzbuTd75816rzdvXwnQ.png?ixlib=java-2.1.0&w=50&s=37c00d1a45352772ac1211efddb163eb"
+            },
+            "rank": 20
+        },
+        {
+            "players": [
+                {
+                    "cost": 206000,
+                    "playerData": {
+                        "name": "FL1T",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/PTTTGaBMGxEywZuOC6V8zC.png?ixlib=java-2.1.0&w=400&s=632028609675900efa8329bcdacfa0b1",
+                        "playerLevel": "SILVER",
+                        "stats": {
+                            "rating": "1.07",
+                            "ctRating": "1.13",
+                            "tRating": "1.02",
+                            "awpKillsPerRound": "0.01",
+                            "hsPercentage": "46.5%",
+                            "entryFragsPerRound": "11.9%",
+                            "cluthesPerRound": "1.1%",
+                            "supportRounds": "16.7%",
+                            "multiKillRounds": "17.4%",
+                            "dpr": "0.66"
+                        },
+                        "team": {
+                            "name": "Virtus.pro",
+                            "link": "/team/5378/virtuspro",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/yZ6Bpuui1rW3jocXQ68XgZ.svg?ixlib=java-2.1.0&s=f39be1d3e7baf30a4e7f0b1216720875",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/yZ6Bpuui1rW3jocXQ68XgZ.svg?ixlib=java-2.1.0&s=f39be1d3e7baf30a4e7f0b1216720875"
+                        },
+                        "fantasyPlayerId": {
+                            "playerId": 12732
+                        },
+                        "statsLocation": "/stats/players/12732/fl1t?startDate=2022-12-01&endDate=2023-06-01",
+                        "male": true
+                    }
+                },
+                {
+                    "cost": 184000,
+                    "playerData": {
+                        "name": "Qikert",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/KZ.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/ccC67anW4y0JCcXvKlZc0z.png?ixlib=java-2.1.0&w=400&s=7981dd7946918a7464216f24a6edd198",
+                        "stats": {
+                            "rating": "0.90",
+                            "ctRating": "0.89",
+                            "tRating": "0.91",
+                            "awpKillsPerRound": "0.00",
+                            "hsPercentage": "58.0%",
+                            "entryFragsPerRound": "9.0%",
+                            "cluthesPerRound": "0.6%",
+                            "supportRounds": "23.6%",
+                            "multiKillRounds": "10.5%",
+                            "dpr": "0.64"
+                        },
+                        "team": {
+                            "name": "Virtus.pro",
+                            "link": "/team/5378/virtuspro",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/yZ6Bpuui1rW3jocXQ68XgZ.svg?ixlib=java-2.1.0&s=f39be1d3e7baf30a4e7f0b1216720875",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/yZ6Bpuui1rW3jocXQ68XgZ.svg?ixlib=java-2.1.0&s=f39be1d3e7baf30a4e7f0b1216720875"
+                        },
+                        "fantasyPlayerId": {
+                            "playerId": 13239
+                        },
+                        "statsLocation": "/stats/players/13239/qikert?startDate=2022-12-01&endDate=2023-06-01",
+                        "male": true
+                    }
+                },
+                {
+                    "cost": 212000,
+                    "playerData": {
+                        "name": "Jame",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/DcDRN_LocUAEh6st6YL-fx.png?ixlib=java-2.1.0&w=400&s=fb51c8d91009aeb92400f7e5af5eeced",
+                        "playerLevel": "SILVER",
+                        "stats": {
+                            "rating": "1.11",
+                            "ctRating": "1.24",
+                            "tRating": "0.98",
+                            "awpKillsPerRound": "0.38",
+                            "hsPercentage": "25.7%",
+                            "entryFragsPerRound": "11.1%",
+                            "cluthesPerRound": "1.0%",
+                            "supportRounds": "24.7%",
+                            "multiKillRounds": "15.7%",
+                            "dpr": "0.53"
+                        },
+                        "team": {
+                            "name": "Virtus.pro",
+                            "link": "/team/5378/virtuspro",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/yZ6Bpuui1rW3jocXQ68XgZ.svg?ixlib=java-2.1.0&s=f39be1d3e7baf30a4e7f0b1216720875",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/yZ6Bpuui1rW3jocXQ68XgZ.svg?ixlib=java-2.1.0&s=f39be1d3e7baf30a4e7f0b1216720875"
+                        },
+                        "fantasyPlayerId": {
+                            "playerId": 13776
+                        },
+                        "statsLocation": "/stats/players/13776/jame?startDate=2022-12-01&endDate=2023-06-01",
+                        "male": true
+                    }
+                },
+                {
+                    "cost": 177000,
+                    "playerData": {
+                        "name": "n0rb3r7",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/CwwXFqJK1qJdpgoE_mvu7o.png?ixlib=java-2.1.0&w=400&s=f851f948e14e8a2910663fa32158eeab",
+                        "stats": {
+                            "rating": "0.81",
+                            "ctRating": "0.95",
+                            "tRating": "0.70",
+                            "awpKillsPerRound": "0.00",
+                            "hsPercentage": "50.0%",
+                            "entryFragsPerRound": "5.1%",
+                            "cluthesPerRound": "0.9%",
+                            "supportRounds": "20.7%",
+                            "multiKillRounds": "12.9%",
+                            "dpr": "0.75"
+                        },
+                        "team": {
+                            "name": "Virtus.pro",
+                            "link": "/team/5378/virtuspro",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/yZ6Bpuui1rW3jocXQ68XgZ.svg?ixlib=java-2.1.0&s=f39be1d3e7baf30a4e7f0b1216720875",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/yZ6Bpuui1rW3jocXQ68XgZ.svg?ixlib=java-2.1.0&s=f39be1d3e7baf30a4e7f0b1216720875"
+                        },
+                        "fantasyPlayerId": {
+                            "playerId": 16612
+                        },
+                        "statsLocation": "/stats/players/16612/n0rb3r7?startDate=2022-12-01&endDate=2023-06-01",
                         "male": true
                     }
                 },
                 {
                     "cost": 198000,
                     "playerData": {
-                        "name": "Altekz",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/oJ8J14zbYHmE1LLgS7Y_M_.png?ixlib=java-2.1.0&w=400&s=a1ac264c8d3e4727130a6ad97d6b8615",
+                        "name": "fame",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/ioll0YITulS0JL_s7jKcWx.png?ixlib=java-2.1.0&w=400&s=a794abf591f43e43aade39f44804b221",
                         "playerLevel": "SILVER",
                         "stats": {
-                            "rating": "1.12",
-                            "ctRating": "1.04",
-                            "tRating": "1.20",
-                            "awpKillsPerRound": "0.01",
-                            "hsPercentage": "52.6%",
-                            "entryFragsPerRound": "10.3%",
-                            "cluthesPerRound": "1.3%",
-                            "supportRounds": "20.1%",
-                            "multiKillRounds": "16.9%",
-                            "dpr": "0.63"
-                        },
-                        "team": {
-                            "name": "Astralis",
-                            "link": "/team/6665/astralis",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/9bgXHp-oh1oaXr7F0mTGmd.svg?ixlib=java-2.1.0&s=f567161ab183001be33948b98c4b2067",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/9bgXHp-oh1oaXr7F0mTGmd.svg?ixlib=java-2.1.0&s=f567161ab183001be33948b98c4b2067"
-                        },
-                        "fantasyPlayerId": {
-                            "playerId": 16705
-                        },
-                        "statsLocation": "/stats/players/16705/altekz?startDate=2022-11-26&endDate=2023-05-26",
-                        "male": true
-                    }
-                },
-                {
-                    "cost": 186000,
-                    "playerData": {
-                        "name": "Buzz",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/gcLri2WLx-l_mvZsZQE_mV.png?ixlib=java-2.1.0&w=400&s=cc2d8d42841cae15f6a315c1dd2a80b6",
-                        "playerLevel": "SILVER",
-                        "stats": {
-                            "rating": "1.06",
-                            "ctRating": "1.04",
-                            "tRating": "1.07",
+                            "rating": "0.99",
+                            "ctRating": "1.00",
+                            "tRating": "0.98",
                             "awpKillsPerRound": "0.00",
-                            "hsPercentage": "50.5%",
+                            "hsPercentage": "58.2%",
                             "entryFragsPerRound": "10.3%",
                             "cluthesPerRound": "1.0%",
-                            "supportRounds": "19.0%",
-                            "multiKillRounds": "16.2%",
-                            "dpr": "0.67"
+                            "supportRounds": "19.6%",
+                            "multiKillRounds": "12.9%",
+                            "dpr": "0.64"
                         },
                         "team": {
-                            "name": "Astralis",
-                            "link": "/team/6665/astralis",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/9bgXHp-oh1oaXr7F0mTGmd.svg?ixlib=java-2.1.0&s=f567161ab183001be33948b98c4b2067",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/9bgXHp-oh1oaXr7F0mTGmd.svg?ixlib=java-2.1.0&s=f567161ab183001be33948b98c4b2067"
+                            "name": "Virtus.pro",
+                            "link": "/team/5378/virtuspro",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/yZ6Bpuui1rW3jocXQ68XgZ.svg?ixlib=java-2.1.0&s=f39be1d3e7baf30a4e7f0b1216720875",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/yZ6Bpuui1rW3jocXQ68XgZ.svg?ixlib=java-2.1.0&s=f39be1d3e7baf30a4e7f0b1216720875"
                         },
                         "fantasyPlayerId": {
-                            "playerId": 20941
+                            "playerId": 20101
                         },
-                        "statsLocation": "/stats/players/20941/buzz?startDate=2022-11-26&endDate=2023-05-26",
+                        "statsLocation": "/stats/players/20101/fame?startDate=2022-12-01&endDate=2023-06-01",
                         "male": true
                     }
                 }
             ],
             "teamData": {
-                "name": "Astralis",
-                "link": "/team/6665/astralis",
-                "logoDay": "https://img-cdn.hltv.org/teamlogo/9bgXHp-oh1oaXr7F0mTGmd.svg?ixlib=java-2.1.0&s=f567161ab183001be33948b98c4b2067",
-                "logoNight": "https://img-cdn.hltv.org/teamlogo/9bgXHp-oh1oaXr7F0mTGmd.svg?ixlib=java-2.1.0&s=f567161ab183001be33948b98c4b2067"
+                "name": "Virtus.pro",
+                "link": "/team/5378/virtuspro",
+                "logoDay": "https://img-cdn.hltv.org/teamlogo/yZ6Bpuui1rW3jocXQ68XgZ.svg?ixlib=java-2.1.0&s=f39be1d3e7baf30a4e7f0b1216720875",
+                "logoNight": "https://img-cdn.hltv.org/teamlogo/yZ6Bpuui1rW3jocXQ68XgZ.svg?ixlib=java-2.1.0&s=f39be1d3e7baf30a4e7f0b1216720875"
             },
-            "rank": 17
+            "rank": 22
         },
         {
             "players": [
                 {
-                    "cost": 195000,
+                    "cost": 197000,
                     "playerData": {
-                        "name": "FalleN",
+                        "name": "NEKIZ",
                         "flag": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/XVxima19pmAiFmDuaCX9yj.png?ixlib=java-2.1.0&w=400&s=e3ca062482376d91eb5837090009d68d",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/7udnpi5xCHRiyDx28d3_DA.png?ixlib=java-2.1.0&w=400&s=2fa39aafca9369e5ddf3c3ab07747c06",
                         "playerLevel": "SILVER",
                         "stats": {
-                            "rating": "1.12",
-                            "ctRating": "1.12",
-                            "tRating": "1.13",
-                            "awpKillsPerRound": "0.41",
-                            "hsPercentage": "28.1%",
-                            "entryFragsPerRound": "10.4%",
-                            "cluthesPerRound": "1.3%",
-                            "supportRounds": "21.9%",
-                            "multiKillRounds": "17.0%",
-                            "dpr": "0.57"
+                            "rating": "1.05",
+                            "ctRating": "1.10",
+                            "tRating": "0.99",
+                            "awpKillsPerRound": "0.00",
+                            "hsPercentage": "46.7%",
+                            "entryFragsPerRound": "11.2%",
+                            "cluthesPerRound": "1.1%",
+                            "supportRounds": "18.3%",
+                            "multiKillRounds": "15.7%",
+                            "dpr": "0.67"
                         },
                         "team": {
-                            "name": "Imperial",
-                            "link": "/team/9455/imperial",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/WF5P55R5fxcmhoew6vHZQr.png?ixlib=java-2.1.0&w=50&s=ecc0a33173ed783477ab8be4cfa6e215",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/WF5P55R5fxcmhoew6vHZQr.png?ixlib=java-2.1.0&w=50&s=ecc0a33173ed783477ab8be4cfa6e215"
+                            "name": "paiN",
+                            "link": "/team/4773/pain",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/iUUCFwCOFmOrwhB8q8smMg.svg?ixlib=java-2.1.0&s=1446e1cf3d02deb8190fe6efd14e4ce4",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/x7znFH8_QjLXOQRyR2y7Xp.png?ixlib=java-2.1.0&w=50&s=e4435bf7c351b546b867adc1d7886795"
                         },
                         "fantasyPlayerId": {
-                            "playerId": 2023
+                            "playerId": 9482
                         },
-                        "statsLocation": "/stats/players/2023/fallen?startDate=2022-11-26&endDate=2023-05-26",
+                        "statsLocation": "/stats/players/9482/nekiz?startDate=2022-12-01&endDate=2023-06-01",
                         "male": true
                     }
                 },
                 {
                     "cost": 197000,
                     "playerData": {
-                        "name": "boltz",
+                        "name": "hardzao",
                         "flag": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/r3y-G1gAgld0Sq5PawpQUD.png?ixlib=java-2.1.0&w=400&s=643aca268b38aa993af05d477b5eb82f",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/CQYEgsIzd3SNrUT7oegnq4.png?ixlib=java-2.1.0&w=400&s=c8ac07c6b920a326b1dfee31f28f03fb",
                         "playerLevel": "SILVER",
                         "stats": {
-                            "rating": "1.13",
-                            "ctRating": "1.13",
-                            "tRating": "1.12",
-                            "awpKillsPerRound": "0.00",
-                            "hsPercentage": "36.8%",
-                            "entryFragsPerRound": "9.3%",
+                            "rating": "1.05",
+                            "ctRating": "1.02",
+                            "tRating": "1.08",
+                            "awpKillsPerRound": "0.02",
+                            "hsPercentage": "45.0%",
+                            "entryFragsPerRound": "7.5%",
                             "cluthesPerRound": "1.4%",
-                            "supportRounds": "22.5%",
-                            "multiKillRounds": "16.6%",
+                            "supportRounds": "22.8%",
+                            "multiKillRounds": "14.8%",
                             "dpr": "0.61"
                         },
                         "team": {
-                            "name": "Imperial",
-                            "link": "/team/9455/imperial",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/WF5P55R5fxcmhoew6vHZQr.png?ixlib=java-2.1.0&w=50&s=ecc0a33173ed783477ab8be4cfa6e215",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/WF5P55R5fxcmhoew6vHZQr.png?ixlib=java-2.1.0&w=50&s=ecc0a33173ed783477ab8be4cfa6e215"
+                            "name": "paiN",
+                            "link": "/team/4773/pain",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/iUUCFwCOFmOrwhB8q8smMg.svg?ixlib=java-2.1.0&s=1446e1cf3d02deb8190fe6efd14e4ce4",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/x7znFH8_QjLXOQRyR2y7Xp.png?ixlib=java-2.1.0&w=50&s=e4435bf7c351b546b867adc1d7886795"
                         },
                         "fantasyPlayerId": {
-                            "playerId": 8568
+                            "playerId": 16817
                         },
-                        "statsLocation": "/stats/players/8568/boltz?startDate=2022-11-26&endDate=2023-05-26",
+                        "statsLocation": "/stats/players/16817/hardzao?startDate=2022-12-01&endDate=2023-06-01",
                         "male": true
                     }
                 },
                 {
-                    "cost": 196000,
+                    "cost": 213000,
                     "playerData": {
-                        "name": "chelo",
+                        "name": "biguzera",
                         "flag": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/9ViFkzVOxBYZEzJH_4mNre.png?ixlib=java-2.1.0&w=400&s=2411a65541d92d16e1a9a46e830398ea",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/dJrcqoPX31d7U0iK0PVvih.png?ixlib=java-2.1.0&w=400&s=90ce8d29d8d76368538025608e1b4508",
                         "playerLevel": "SILVER",
                         "stats": {
-                            "rating": "1.13",
-                            "ctRating": "1.07",
-                            "tRating": "1.18",
-                            "awpKillsPerRound": "0.03",
-                            "hsPercentage": "58.5%",
-                            "entryFragsPerRound": "13.2%",
-                            "cluthesPerRound": "0.9%",
-                            "supportRounds": "19.1%",
-                            "multiKillRounds": "18.5%",
-                            "dpr": "0.63"
+                            "rating": "1.15",
+                            "ctRating": "1.18",
+                            "tRating": "1.11",
+                            "awpKillsPerRound": "0.00",
+                            "hsPercentage": "49.0%",
+                            "entryFragsPerRound": "12.0%",
+                            "cluthesPerRound": "1.0%",
+                            "supportRounds": "17.8%",
+                            "multiKillRounds": "17.9%",
+                            "dpr": "0.65"
                         },
                         "team": {
-                            "name": "Imperial",
-                            "link": "/team/9455/imperial",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/WF5P55R5fxcmhoew6vHZQr.png?ixlib=java-2.1.0&w=50&s=ecc0a33173ed783477ab8be4cfa6e215",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/WF5P55R5fxcmhoew6vHZQr.png?ixlib=java-2.1.0&w=50&s=ecc0a33173ed783477ab8be4cfa6e215"
+                            "name": "paiN",
+                            "link": "/team/4773/pain",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/iUUCFwCOFmOrwhB8q8smMg.svg?ixlib=java-2.1.0&s=1446e1cf3d02deb8190fe6efd14e4ce4",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/x7znFH8_QjLXOQRyR2y7Xp.png?ixlib=java-2.1.0&w=50&s=e4435bf7c351b546b867adc1d7886795"
                         },
                         "fantasyPlayerId": {
-                            "playerId": 10566
+                            "playerId": 18141
                         },
-                        "statsLocation": "/stats/players/10566/chelo?startDate=2022-11-26&endDate=2023-05-26",
+                        "statsLocation": "/stats/players/18141/biguzera?startDate=2022-12-01&endDate=2023-06-01",
+                        "male": true
+                    }
+                },
+                {
+                    "cost": 216000,
+                    "playerData": {
+                        "name": "skullz",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/Qd1zPG_C7Z5nfzXSryfq9w.png?ixlib=java-2.1.0&w=400&s=8711a92556e00f874948e336a7f7ad1a",
+                        "playerLevel": "GOLD",
+                        "stats": {
+                            "rating": "1.16",
+                            "ctRating": "1.17",
+                            "tRating": "1.16",
+                            "awpKillsPerRound": "0.00",
+                            "hsPercentage": "53.7%",
+                            "entryFragsPerRound": "10.0%",
+                            "cluthesPerRound": "1.6%",
+                            "supportRounds": "21.3%",
+                            "multiKillRounds": "17.7%",
+                            "dpr": "0.60"
+                        },
+                        "team": {
+                            "name": "paiN",
+                            "link": "/team/4773/pain",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/iUUCFwCOFmOrwhB8q8smMg.svg?ixlib=java-2.1.0&s=1446e1cf3d02deb8190fe6efd14e4ce4",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/x7znFH8_QjLXOQRyR2y7Xp.png?ixlib=java-2.1.0&w=50&s=e4435bf7c351b546b867adc1d7886795"
+                        },
+                        "fantasyPlayerId": {
+                            "playerId": 18676
+                        },
+                        "statsLocation": "/stats/players/18676/skullz?startDate=2022-12-01&endDate=2023-06-01",
+                        "male": true
+                    }
+                },
+                {
+                    "cost": 213000,
+                    "playerData": {
+                        "name": "zevy",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/fqbWAdwnvyQUZcfwAPifbg.png?ixlib=java-2.1.0&w=400&s=80d9183bbdd7151657dde4389a6ef99e",
+                        "playerLevel": "SILVER",
+                        "stats": {
+                            "rating": "1.15",
+                            "ctRating": "1.22",
+                            "tRating": "1.08",
+                            "awpKillsPerRound": "0.30",
+                            "hsPercentage": "34.4%",
+                            "entryFragsPerRound": "11.5%",
+                            "cluthesPerRound": "1.3%",
+                            "supportRounds": "17.5%",
+                            "multiKillRounds": "19.4%",
+                            "dpr": "0.61"
+                        },
+                        "team": {
+                            "name": "paiN",
+                            "link": "/team/4773/pain",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/iUUCFwCOFmOrwhB8q8smMg.svg?ixlib=java-2.1.0&s=1446e1cf3d02deb8190fe6efd14e4ce4",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/x7znFH8_QjLXOQRyR2y7Xp.png?ixlib=java-2.1.0&w=50&s=e4435bf7c351b546b867adc1d7886795"
+                        },
+                        "fantasyPlayerId": {
+                            "playerId": 19692
+                        },
+                        "statsLocation": "/stats/players/19692/zevy?startDate=2022-12-01&endDate=2023-06-01",
+                        "male": true
+                    }
+                }
+            ],
+            "teamData": {
+                "name": "paiN",
+                "link": "/team/4773/pain",
+                "logoDay": "https://img-cdn.hltv.org/teamlogo/iUUCFwCOFmOrwhB8q8smMg.svg?ixlib=java-2.1.0&s=1446e1cf3d02deb8190fe6efd14e4ce4",
+                "logoNight": "https://img-cdn.hltv.org/teamlogo/x7znFH8_QjLXOQRyR2y7Xp.png?ixlib=java-2.1.0&w=50&s=e4435bf7c351b546b867adc1d7886795"
+            },
+            "rank": 23
+        },
+        {
+            "players": [
+                {
+                    "cost": 188000,
+                    "playerData": {
+                        "name": "max",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/UY.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/UU5gTT1iRsdy-ll7L7CnsO.png?ixlib=java-2.1.0&w=400&s=894449fc1ad3df947f2c33ee238f7da5",
+                        "playerLevel": "SILVER",
+                        "stats": {
+                            "rating": "1.01",
+                            "ctRating": "1.05",
+                            "tRating": "0.98",
+                            "awpKillsPerRound": "0.00",
+                            "hsPercentage": "43.7%",
+                            "entryFragsPerRound": "12.4%",
+                            "cluthesPerRound": "0.7%",
+                            "supportRounds": "19.7%",
+                            "multiKillRounds": "13.5%",
+                            "dpr": "0.67"
+                        },
+                        "team": {
+                            "name": "9z",
+                            "link": "/team/9996/9z",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/XPx9dt1CGihL-t2ljJ5Iai.png?ixlib=java-2.1.0&w=50&s=86d6e8de8486275e0724a80a16f7a877",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/cL5XYBECBOmc1rn9edoWuq.png?ixlib=java-2.1.0&w=50&s=0cdcc8d9cc39ebad5b32d0cdbf5ae10a"
+                        },
+                        "fantasyPlayerId": {
+                            "playerId": 12092
+                        },
+                        "statsLocation": "/stats/players/12092/max?startDate=2022-12-01&endDate=2023-06-01",
+                        "male": true
+                    }
+                },
+                {
+                    "cost": 214000,
+                    "playerData": {
+                        "name": "dgt",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/UY.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/LcZu2yF057O_vN6XJsnSxg.png?ixlib=java-2.1.0&w=400&s=cafc4a765d4f754b468cd43ae292f000",
+                        "playerLevel": "SILVER",
+                        "stats": {
+                            "rating": "1.15",
+                            "ctRating": "1.16",
+                            "tRating": "1.14",
+                            "awpKillsPerRound": "0.00",
+                            "hsPercentage": "50.7%",
+                            "entryFragsPerRound": "9.2%",
+                            "cluthesPerRound": "1.7%",
+                            "supportRounds": "18.9%",
+                            "multiKillRounds": "17.8%",
+                            "dpr": "0.60"
+                        },
+                        "team": {
+                            "name": "9z",
+                            "link": "/team/9996/9z",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/XPx9dt1CGihL-t2ljJ5Iai.png?ixlib=java-2.1.0&w=50&s=86d6e8de8486275e0724a80a16f7a877",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/cL5XYBECBOmc1rn9edoWuq.png?ixlib=java-2.1.0&w=50&s=0cdcc8d9cc39ebad5b32d0cdbf5ae10a"
+                        },
+                        "fantasyPlayerId": {
+                            "playerId": 14736
+                        },
+                        "statsLocation": "/stats/players/14736/dgt?startDate=2022-12-01&endDate=2023-06-01",
+                        "male": true
+                    }
+                },
+                {
+                    "cost": 202000,
+                    "playerData": {
+                        "name": "dav1deuS",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/CL.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/sHm9GOhRzjoP4RKCz6_ntS.png?ixlib=java-2.1.0&w=400&s=4bed2afdd10181e24e6602384e3a8e11",
+                        "playerLevel": "SILVER",
+                        "stats": {
+                            "rating": "1.09",
+                            "ctRating": "1.12",
+                            "tRating": "1.07",
+                            "awpKillsPerRound": "0.00",
+                            "hsPercentage": "53.3%",
+                            "entryFragsPerRound": "10.9%",
+                            "cluthesPerRound": "0.9%",
+                            "supportRounds": "17.7%",
+                            "multiKillRounds": "17.9%",
+                            "dpr": "0.69"
+                        },
+                        "team": {
+                            "name": "9z",
+                            "link": "/team/9996/9z",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/XPx9dt1CGihL-t2ljJ5Iai.png?ixlib=java-2.1.0&w=50&s=86d6e8de8486275e0724a80a16f7a877",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/cL5XYBECBOmc1rn9edoWuq.png?ixlib=java-2.1.0&w=50&s=0cdcc8d9cc39ebad5b32d0cdbf5ae10a"
+                        },
+                        "fantasyPlayerId": {
+                            "playerId": 18865
+                        },
+                        "statsLocation": "/stats/players/18865/dav1deus?startDate=2022-12-01&endDate=2023-06-01",
+                        "male": true
+                    }
+                },
+                {
+                    "cost": 209000,
+                    "playerData": {
+                        "name": "try",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/AR.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/mrxgwSFFQ5gEdgQwHgEFSQ.png?ixlib=java-2.1.0&w=400&s=4200ce2be0bb66ca8723ad3b62c80b8a",
+                        "playerLevel": "SILVER",
+                        "stats": {
+                            "rating": "1.15",
+                            "ctRating": "1.23",
+                            "tRating": "1.08",
+                            "awpKillsPerRound": "0.38",
+                            "hsPercentage": "33.8%",
+                            "entryFragsPerRound": "12.2%",
+                            "cluthesPerRound": "1.4%",
+                            "supportRounds": "18.3%",
+                            "multiKillRounds": "18.5%",
+                            "dpr": "0.60"
+                        },
+                        "team": {
+                            "name": "9z",
+                            "link": "/team/9996/9z",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/XPx9dt1CGihL-t2ljJ5Iai.png?ixlib=java-2.1.0&w=50&s=86d6e8de8486275e0724a80a16f7a877",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/cL5XYBECBOmc1rn9edoWuq.png?ixlib=java-2.1.0&w=50&s=0cdcc8d9cc39ebad5b32d0cdbf5ae10a"
+                        },
+                        "fantasyPlayerId": {
+                            "playerId": 19869
+                        },
+                        "statsLocation": "/stats/players/19869/try?startDate=2022-12-01&endDate=2023-06-01",
+                        "male": true
+                    }
+                },
+                {
+                    "cost": 165000,
+                    "playerData": {
+                        "name": "buda",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/AR.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/tSL23t7Km_OiftQnYBOaI3.png?ixlib=java-2.1.0&w=400&s=be88d2f29d8d81ed908d49faf54bc04a",
+                        "stats": {
+                            "rating": "0.90",
+                            "ctRating": "0.89",
+                            "tRating": "0.90",
+                            "awpKillsPerRound": "0.00",
+                            "hsPercentage": "49.1%",
+                            "entryFragsPerRound": "6.6%",
+                            "cluthesPerRound": "1.2%",
+                            "supportRounds": "22.5%",
+                            "multiKillRounds": "12.5%",
+                            "dpr": "0.67"
+                        },
+                        "team": {
+                            "name": "9z",
+                            "link": "/team/9996/9z",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/XPx9dt1CGihL-t2ljJ5Iai.png?ixlib=java-2.1.0&w=50&s=86d6e8de8486275e0724a80a16f7a877",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/cL5XYBECBOmc1rn9edoWuq.png?ixlib=java-2.1.0&w=50&s=0cdcc8d9cc39ebad5b32d0cdbf5ae10a"
+                        },
+                        "fantasyPlayerId": {
+                            "playerId": 20607
+                        },
+                        "statsLocation": "/stats/players/20607/buda?startDate=2022-12-01&endDate=2023-06-01",
+                        "male": true
+                    }
+                }
+            ],
+            "teamData": {
+                "name": "9z",
+                "link": "/team/9996/9z",
+                "logoDay": "https://img-cdn.hltv.org/teamlogo/XPx9dt1CGihL-t2ljJ5Iai.png?ixlib=java-2.1.0&w=50&s=86d6e8de8486275e0724a80a16f7a877",
+                "logoNight": "https://img-cdn.hltv.org/teamlogo/cL5XYBECBOmc1rn9edoWuq.png?ixlib=java-2.1.0&w=50&s=0cdcc8d9cc39ebad5b32d0cdbf5ae10a"
+            },
+            "rank": 29
+        },
+        {
+            "players": [
+                {
+                    "cost": 197000,
+                    "playerData": {
+                        "name": "Nodios",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/HfcSLHYha5ad__CK13mUBT.png?ixlib=java-2.1.0&w=400&s=952bc7c7a01bdd165e952c2fb301058a",
+                        "playerLevel": "SILVER",
+                        "stats": {
+                            "rating": "1.06",
+                            "ctRating": "1.05",
+                            "tRating": "1.07",
+                            "awpKillsPerRound": "0.00",
+                            "hsPercentage": "55.4%",
+                            "entryFragsPerRound": "8.7%",
+                            "cluthesPerRound": "1.5%",
+                            "supportRounds": "19.4%",
+                            "multiKillRounds": "16.2%",
+                            "dpr": "0.65"
+                        },
+                        "team": {
+                            "name": "ECSTATIC",
+                            "link": "/team/11419/ecstatic",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/Ox1eFAB6o8VM6jwgPbQuks.svg?ixlib=java-2.1.0&s=66680f6d946ff4a93bc311f3bbab8d9e",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/Ox1eFAB6o8VM6jwgPbQuks.svg?ixlib=java-2.1.0&s=66680f6d946ff4a93bc311f3bbab8d9e"
+                        },
+                        "fantasyPlayerId": {
+                            "playerId": 8891
+                        },
+                        "statsLocation": "/stats/players/8891/nodios?startDate=2022-12-01&endDate=2023-06-01",
+                        "male": true
+                    }
+                },
+                {
+                    "cost": 195000,
+                    "playerData": {
+                        "name": "Queenix",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/95YaV0ZypzlBOr3PotM682.png?ixlib=java-2.1.0&w=400&s=294fd702572e06e84d5181b7c60b520e",
+                        "playerLevel": "SILVER",
+                        "stats": {
+                            "rating": "1.05",
+                            "ctRating": "1.05",
+                            "tRating": "1.06",
+                            "awpKillsPerRound": "0.01",
+                            "hsPercentage": "55.1%",
+                            "entryFragsPerRound": "9.2%",
+                            "cluthesPerRound": "1.6%",
+                            "supportRounds": "21.3%",
+                            "multiKillRounds": "15.6%",
+                            "dpr": "0.65"
+                        },
+                        "team": {
+                            "name": "ECSTATIC",
+                            "link": "/team/11419/ecstatic",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/Ox1eFAB6o8VM6jwgPbQuks.svg?ixlib=java-2.1.0&s=66680f6d946ff4a93bc311f3bbab8d9e",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/Ox1eFAB6o8VM6jwgPbQuks.svg?ixlib=java-2.1.0&s=66680f6d946ff4a93bc311f3bbab8d9e"
+                        },
+                        "fantasyPlayerId": {
+                            "playerId": 13749
+                        },
+                        "statsLocation": "/stats/players/13749/queenix?startDate=2022-12-01&endDate=2023-06-01",
+                        "male": true
+                    }
+                },
+                {
+                    "cost": 190000,
+                    "playerData": {
+                        "name": "maNkz",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/dgTcvjQcW3P3ephkETE_Ky.png?ixlib=java-2.1.0&w=400&s=2685ac1408e120c32294f9b65da4f601",
+                        "playerLevel": "SILVER",
+                        "stats": {
+                            "rating": "1.03",
+                            "ctRating": "1.05",
+                            "tRating": "1.02",
+                            "awpKillsPerRound": "0.01",
+                            "hsPercentage": "52.4%",
+                            "entryFragsPerRound": "11.8%",
+                            "cluthesPerRound": "0.9%",
+                            "supportRounds": "18.5%",
+                            "multiKillRounds": "15.3%",
+                            "dpr": "0.71"
+                        },
+                        "team": {
+                            "name": "ECSTATIC",
+                            "link": "/team/11419/ecstatic",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/Ox1eFAB6o8VM6jwgPbQuks.svg?ixlib=java-2.1.0&s=66680f6d946ff4a93bc311f3bbab8d9e",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/Ox1eFAB6o8VM6jwgPbQuks.svg?ixlib=java-2.1.0&s=66680f6d946ff4a93bc311f3bbab8d9e"
+                        },
+                        "fantasyPlayerId": {
+                            "playerId": 15349
+                        },
+                        "statsLocation": "/stats/players/15349/mankz?startDate=2022-12-01&endDate=2023-06-01",
                         "male": true
                     }
                 },
                 {
                     "cost": 189000,
                     "playerData": {
-                        "name": "VINI",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/qVM7Dg9tPjTo1iV6kF5bE0.png?ixlib=java-2.1.0&w=400&s=a57d248aec2e63ff149eb1a363028d49",
+                        "name": "kraghen",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/ReS9kBazXYwGlydn6PLIiL.png?ixlib=java-2.1.0&w=400&s=049b72a82724c94c133cc7954dbebb05",
                         "playerLevel": "SILVER",
                         "stats": {
-                            "rating": "1.09",
-                            "ctRating": "1.06",
-                            "tRating": "1.12",
+                            "rating": "1.02",
+                            "ctRating": "1.04",
+                            "tRating": "1.01",
                             "awpKillsPerRound": "0.00",
-                            "hsPercentage": "48.9%",
-                            "entryFragsPerRound": "10.8%",
-                            "cluthesPerRound": "1.0%",
-                            "supportRounds": "23.9%",
-                            "multiKillRounds": "15.2%",
-                            "dpr": "0.62"
+                            "hsPercentage": "46.1%",
+                            "entryFragsPerRound": "8.8%",
+                            "cluthesPerRound": "1.3%",
+                            "supportRounds": "19.2%",
+                            "multiKillRounds": "15.9%",
+                            "dpr": "0.68"
                         },
                         "team": {
-                            "name": "Imperial",
-                            "link": "/team/9455/imperial",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/WF5P55R5fxcmhoew6vHZQr.png?ixlib=java-2.1.0&w=50&s=ecc0a33173ed783477ab8be4cfa6e215",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/WF5P55R5fxcmhoew6vHZQr.png?ixlib=java-2.1.0&w=50&s=ecc0a33173ed783477ab8be4cfa6e215"
+                            "name": "ECSTATIC",
+                            "link": "/team/11419/ecstatic",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/Ox1eFAB6o8VM6jwgPbQuks.svg?ixlib=java-2.1.0&s=66680f6d946ff4a93bc311f3bbab8d9e",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/Ox1eFAB6o8VM6jwgPbQuks.svg?ixlib=java-2.1.0&s=66680f6d946ff4a93bc311f3bbab8d9e"
                         },
                         "fantasyPlayerId": {
-                            "playerId": 12822
+                            "playerId": 20300
                         },
-                        "statsLocation": "/stats/players/12822/vini?startDate=2022-11-26&endDate=2023-05-26",
+                        "statsLocation": "/stats/players/20300/kraghen?startDate=2022-12-01&endDate=2023-06-01",
                         "male": true
                     }
                 },
                 {
-                    "cost": 206000,
+                    "cost": 194000,
                     "playerData": {
-                        "name": "JOTA",
-                        "flag": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
-                        "picture": "https://img-cdn.hltv.org/playerbodyshot/dVZUV04EYUjhbmXMc49avl.png?ixlib=java-2.1.0&w=400&s=5da12f00caf369ef2610c3b9f44fea9f",
+                        "name": "salazar",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/WakyRy-CkOZ6D6wN4d56PV.png?ixlib=java-2.1.0&w=400&s=cd1c0b407da5282d577addbaeb82dd6a",
                         "playerLevel": "SILVER",
                         "stats": {
-                            "rating": "1.18",
-                            "ctRating": "1.21",
-                            "tRating": "1.15",
-                            "awpKillsPerRound": "0.01",
-                            "hsPercentage": "43.5%",
-                            "entryFragsPerRound": "10.5%",
-                            "cluthesPerRound": "0.9%",
-                            "supportRounds": "22.0%",
-                            "multiKillRounds": "16.3%",
-                            "dpr": "0.57"
+                            "rating": "1.05",
+                            "ctRating": "1.11",
+                            "tRating": "1.00",
+                            "awpKillsPerRound": "0.35",
+                            "hsPercentage": "28.7%",
+                            "entryFragsPerRound": "8.9%",
+                            "cluthesPerRound": "1.7%",
+                            "supportRounds": "20.3%",
+                            "multiKillRounds": "15.8%",
+                            "dpr": "0.60"
                         },
                         "team": {
-                            "name": "Imperial",
-                            "link": "/team/9455/imperial",
-                            "logoDay": "https://img-cdn.hltv.org/teamlogo/WF5P55R5fxcmhoew6vHZQr.png?ixlib=java-2.1.0&w=50&s=ecc0a33173ed783477ab8be4cfa6e215",
-                            "logoNight": "https://img-cdn.hltv.org/teamlogo/WF5P55R5fxcmhoew6vHZQr.png?ixlib=java-2.1.0&w=50&s=ecc0a33173ed783477ab8be4cfa6e215"
+                            "name": "ECSTATIC",
+                            "link": "/team/11419/ecstatic",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/Ox1eFAB6o8VM6jwgPbQuks.svg?ixlib=java-2.1.0&s=66680f6d946ff4a93bc311f3bbab8d9e",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/Ox1eFAB6o8VM6jwgPbQuks.svg?ixlib=java-2.1.0&s=66680f6d946ff4a93bc311f3bbab8d9e"
                         },
                         "fantasyPlayerId": {
-                            "playerId": 17861
+                            "playerId": 21379
                         },
-                        "statsLocation": "/stats/players/17861/jota?startDate=2022-11-26&endDate=2023-05-26",
+                        "statsLocation": "/stats/players/21379/salazar?startDate=2022-12-01&endDate=2023-06-01",
                         "male": true
                     }
                 }
             ],
             "teamData": {
-                "name": "Imperial",
-                "link": "/team/9455/imperial",
-                "logoDay": "https://img-cdn.hltv.org/teamlogo/WF5P55R5fxcmhoew6vHZQr.png?ixlib=java-2.1.0&w=50&s=ecc0a33173ed783477ab8be4cfa6e215",
-                "logoNight": "https://img-cdn.hltv.org/teamlogo/WF5P55R5fxcmhoew6vHZQr.png?ixlib=java-2.1.0&w=50&s=ecc0a33173ed783477ab8be4cfa6e215"
+                "name": "ECSTATIC",
+                "link": "/team/11419/ecstatic",
+                "logoDay": "https://img-cdn.hltv.org/teamlogo/Ox1eFAB6o8VM6jwgPbQuks.svg?ixlib=java-2.1.0&s=66680f6d946ff4a93bc311f3bbab8d9e",
+                "logoNight": "https://img-cdn.hltv.org/teamlogo/Ox1eFAB6o8VM6jwgPbQuks.svg?ixlib=java-2.1.0&s=66680f6d946ff4a93bc311f3bbab8d9e"
             },
-            "rank": 33
+            "rank": 30
+        },
+        {
+            "players": [
+                {
+                    "cost": 165000,
+                    "playerData": {
+                        "name": "ben1337",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/US.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/LNZt2n5Qkbv0CMXzTjO81f.png?ixlib=java-2.1.0&w=400&s=df6cae7c3c57fdb18dde8da918847264",
+                        "stats": {
+                            "rating": "0.90",
+                            "ctRating": "0.93",
+                            "tRating": "0.87",
+                            "awpKillsPerRound": "0.00",
+                            "hsPercentage": "42.7%",
+                            "entryFragsPerRound": "7.2%",
+                            "cluthesPerRound": "1.0%",
+                            "supportRounds": "18.9%",
+                            "multiKillRounds": "13.3%",
+                            "dpr": "0.69"
+                        },
+                        "team": {
+                            "name": "Party Astronauts",
+                            "link": "/team/8038/party-astronauts",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/5u8WkSr7yNWGWTNAfbEYjD.png?ixlib=java-2.1.0&w=50&s=6d1141a37578edbb5ed61cf53c28832b",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/5u8WkSr7yNWGWTNAfbEYjD.png?ixlib=java-2.1.0&w=50&s=6d1141a37578edbb5ed61cf53c28832b"
+                        },
+                        "fantasyPlayerId": {
+                            "playerId": 13250
+                        },
+                        "statsLocation": "/stats/players/13250/ben1337?startDate=2022-12-01&endDate=2023-06-01",
+                        "male": true
+                    }
+                },
+                {
+                    "cost": 205000,
+                    "playerData": {
+                        "name": "PwnAlone",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/US.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/YfqP_lMI7AVg-vtkAzJWiy.png?ixlib=java-2.1.0&w=400&s=0f7238aaac9e1f70fbdf03d5807b7167",
+                        "playerLevel": "SILVER",
+                        "stats": {
+                            "rating": "1.18",
+                            "ctRating": "1.24",
+                            "tRating": "1.12",
+                            "awpKillsPerRound": "0.42",
+                            "hsPercentage": "24.6%",
+                            "entryFragsPerRound": "11.7%",
+                            "cluthesPerRound": "1.8%",
+                            "supportRounds": "18.0%",
+                            "multiKillRounds": "19.0%",
+                            "dpr": "0.60"
+                        },
+                        "team": {
+                            "name": "Party Astronauts",
+                            "link": "/team/8038/party-astronauts",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/5u8WkSr7yNWGWTNAfbEYjD.png?ixlib=java-2.1.0&w=50&s=6d1141a37578edbb5ed61cf53c28832b",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/5u8WkSr7yNWGWTNAfbEYjD.png?ixlib=java-2.1.0&w=50&s=6d1141a37578edbb5ed61cf53c28832b"
+                        },
+                        "fantasyPlayerId": {
+                            "playerId": 15090
+                        },
+                        "statsLocation": "/stats/players/15090/pwnalone?startDate=2022-12-01&endDate=2023-06-01",
+                        "male": true
+                    }
+                },
+                {
+                    "cost": 197000,
+                    "playerData": {
+                        "name": "cxzi",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/US.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/yQlFJfFVEKPPvz8RC4zPV9.png?ixlib=java-2.1.0&w=400&s=2101f849457fa8c3cee69802c46907df",
+                        "playerLevel": "SILVER",
+                        "stats": {
+                            "rating": "1.07",
+                            "ctRating": "1.08",
+                            "tRating": "1.06",
+                            "awpKillsPerRound": "0.03",
+                            "hsPercentage": "38.3%",
+                            "entryFragsPerRound": "13.2%",
+                            "cluthesPerRound": "1.3%",
+                            "supportRounds": "15.5%",
+                            "multiKillRounds": "16.2%",
+                            "dpr": "0.73"
+                        },
+                        "team": {
+                            "name": "Party Astronauts",
+                            "link": "/team/8038/party-astronauts",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/5u8WkSr7yNWGWTNAfbEYjD.png?ixlib=java-2.1.0&w=50&s=6d1141a37578edbb5ed61cf53c28832b",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/5u8WkSr7yNWGWTNAfbEYjD.png?ixlib=java-2.1.0&w=50&s=6d1141a37578edbb5ed61cf53c28832b"
+                        },
+                        "fantasyPlayerId": {
+                            "playerId": 17353
+                        },
+                        "statsLocation": "/stats/players/17353/cxzi?startDate=2022-12-01&endDate=2023-06-01",
+                        "male": true
+                    }
+                },
+                {
+                    "cost": 184000,
+                    "playerData": {
+                        "name": "viz",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/US.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/5aGx82ecxVA8ZBGEuU0eYR.png?ixlib=java-2.1.0&w=400&s=ab1998ceea727676642a3cb85e063312",
+                        "stats": {
+                            "rating": "1.00",
+                            "ctRating": "1.04",
+                            "tRating": "0.96",
+                            "awpKillsPerRound": "0.00",
+                            "hsPercentage": "49.8%",
+                            "entryFragsPerRound": "8.4%",
+                            "cluthesPerRound": "0.8%",
+                            "supportRounds": "19.1%",
+                            "multiKillRounds": "14.9%",
+                            "dpr": "0.67"
+                        },
+                        "team": {
+                            "name": "Party Astronauts",
+                            "link": "/team/8038/party-astronauts",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/5u8WkSr7yNWGWTNAfbEYjD.png?ixlib=java-2.1.0&w=50&s=6d1141a37578edbb5ed61cf53c28832b",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/5u8WkSr7yNWGWTNAfbEYjD.png?ixlib=java-2.1.0&w=50&s=6d1141a37578edbb5ed61cf53c28832b"
+                        },
+                        "fantasyPlayerId": {
+                            "playerId": 18761
+                        },
+                        "statsLocation": "/stats/players/18761/viz?startDate=2022-12-01&endDate=2023-06-01",
+                        "male": true
+                    }
+                },
+                {
+                    "cost": 195000,
+                    "playerData": {
+                        "name": "chop",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/US.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/j-mFWPlW9Ii9XKonihuYSD.png?ixlib=java-2.1.0&w=400&s=7602be20372caa7560cb5ac30c114090",
+                        "playerLevel": "SILVER",
+                        "stats": {
+                            "rating": "1.06",
+                            "ctRating": "1.06",
+                            "tRating": "1.05",
+                            "awpKillsPerRound": "0.00",
+                            "hsPercentage": "54.8%",
+                            "entryFragsPerRound": "7.9%",
+                            "cluthesPerRound": "1.3%",
+                            "supportRounds": "17.4%",
+                            "multiKillRounds": "17.8%",
+                            "dpr": "0.65"
+                        },
+                        "team": {
+                            "name": "Party Astronauts",
+                            "link": "/team/8038/party-astronauts",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/5u8WkSr7yNWGWTNAfbEYjD.png?ixlib=java-2.1.0&w=50&s=6d1141a37578edbb5ed61cf53c28832b",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/5u8WkSr7yNWGWTNAfbEYjD.png?ixlib=java-2.1.0&w=50&s=6d1141a37578edbb5ed61cf53c28832b"
+                        },
+                        "fantasyPlayerId": {
+                            "playerId": 19705
+                        },
+                        "statsLocation": "/stats/players/19705/chop?startDate=2022-12-01&endDate=2023-06-01",
+                        "male": true
+                    }
+                }
+            ],
+            "teamData": {
+                "name": "Party Astronauts",
+                "link": "/team/8038/party-astronauts",
+                "logoDay": "https://img-cdn.hltv.org/teamlogo/5u8WkSr7yNWGWTNAfbEYjD.png?ixlib=java-2.1.0&w=50&s=6d1141a37578edbb5ed61cf53c28832b",
+                "logoNight": "https://img-cdn.hltv.org/teamlogo/5u8WkSr7yNWGWTNAfbEYjD.png?ixlib=java-2.1.0&w=50&s=6d1141a37578edbb5ed61cf53c28832b"
+            },
+            "rank": 57
+        },
+        {
+            "players": [
+                {
+                    "cost": 205000,
+                    "playerData": {
+                        "name": "SloWye",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/ZA.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/ihCvg3nnm4f2yL-1CSJQ5h.png?ixlib=java-2.1.0&w=400&s=2704cbeca552ec7ce8487c6f2e15f9b5",
+                        "playerLevel": "SILVER",
+                        "stats": {
+                            "rating": "1.25",
+                            "ctRating": "1.46",
+                            "tRating": "1.01",
+                            "awpKillsPerRound": "0.39",
+                            "hsPercentage": "27.7%",
+                            "entryFragsPerRound": "17.0%",
+                            "cluthesPerRound": "1.0%",
+                            "supportRounds": "17.5%",
+                            "multiKillRounds": "19.2%",
+                            "dpr": "0.59"
+                        },
+                        "team": {
+                            "name": "Bravado",
+                            "link": "/team/5158/bravado",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/h_0Ife5rhAIsOhJnGKeG8D.png?ixlib=java-2.1.0&w=50&s=0dfeff925fd53f7dd311f2588a33144d",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/h_0Ife5rhAIsOhJnGKeG8D.png?ixlib=java-2.1.0&w=50&s=0dfeff925fd53f7dd311f2588a33144d"
+                        },
+                        "fantasyPlayerId": {
+                            "playerId": 14904
+                        },
+                        "statsLocation": "/stats/players/14904/slowye?startDate=2022-12-01&endDate=2023-06-01",
+                        "male": true
+                    }
+                },
+                {
+                    "cost": 173000,
+                    "playerData": {
+                        "name": "march",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/ZA.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/sJaPNXZzgjDO_G7dX1M7zE.png?ixlib=java-2.1.0&w=400&s=656cc7c3ee3c2ac2f4ffa943ef5cfef2",
+                        "stats": {
+                            "rating": "0.94",
+                            "ctRating": "1.02",
+                            "tRating": "0.86",
+                            "awpKillsPerRound": "0.01",
+                            "hsPercentage": "48.0%",
+                            "entryFragsPerRound": "5.9%",
+                            "cluthesPerRound": "0.7%",
+                            "supportRounds": "18.8%",
+                            "multiKillRounds": "14.1%",
+                            "dpr": "0.68"
+                        },
+                        "team": {
+                            "name": "Bravado",
+                            "link": "/team/5158/bravado",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/h_0Ife5rhAIsOhJnGKeG8D.png?ixlib=java-2.1.0&w=50&s=0dfeff925fd53f7dd311f2588a33144d",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/h_0Ife5rhAIsOhJnGKeG8D.png?ixlib=java-2.1.0&w=50&s=0dfeff925fd53f7dd311f2588a33144d"
+                        },
+                        "fantasyPlayerId": {
+                            "playerId": 17371
+                        },
+                        "statsLocation": "/stats/players/17371/march?startDate=2022-12-01&endDate=2023-06-01",
+                        "male": true
+                    }
+                },
+                {
+                    "cost": 208000,
+                    "playerData": {
+                        "name": "wilj",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/ZA.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/bHDShqawHRBCetjdMu5hbQ.png?ixlib=java-2.1.0&w=400&s=34d8605b93cd57a12216d85f0271ec4c",
+                        "playerLevel": "SILVER",
+                        "stats": {
+                            "rating": "1.36",
+                            "ctRating": "1.35",
+                            "tRating": "1.36",
+                            "awpKillsPerRound": "0.01",
+                            "hsPercentage": "54.9%",
+                            "entryFragsPerRound": "16.7%",
+                            "cluthesPerRound": "2.4%",
+                            "supportRounds": "12.0%",
+                            "multiKillRounds": "23.1%",
+                            "dpr": "0.64"
+                        },
+                        "team": {
+                            "name": "Bravado",
+                            "link": "/team/5158/bravado",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/h_0Ife5rhAIsOhJnGKeG8D.png?ixlib=java-2.1.0&w=50&s=0dfeff925fd53f7dd311f2588a33144d",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/h_0Ife5rhAIsOhJnGKeG8D.png?ixlib=java-2.1.0&w=50&s=0dfeff925fd53f7dd311f2588a33144d"
+                        },
+                        "fantasyPlayerId": {
+                            "playerId": 18882
+                        },
+                        "statsLocation": "/stats/players/18882/wilj?startDate=2022-12-01&endDate=2023-06-01",
+                        "male": true
+                    }
+                },
+                {
+                    "cost": 173000,
+                    "playerData": {
+                        "name": "Doru",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/ZA.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/Yr13JKfZZebcFAfYbOSCGp.png?ixlib=java-2.1.0&w=400&s=c5a1ee9d46175c8050d808f561eadf5e",
+                        "stats": {
+                            "rating": "0.94",
+                            "ctRating": "0.97",
+                            "tRating": "0.91",
+                            "awpKillsPerRound": "0.00",
+                            "hsPercentage": "52.5%",
+                            "entryFragsPerRound": "4.7%",
+                            "cluthesPerRound": "0.9%",
+                            "supportRounds": "30.1%",
+                            "multiKillRounds": "12.5%",
+                            "dpr": "0.60"
+                        },
+                        "team": {
+                            "name": "Bravado",
+                            "link": "/team/5158/bravado",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/h_0Ife5rhAIsOhJnGKeG8D.png?ixlib=java-2.1.0&w=50&s=0dfeff925fd53f7dd311f2588a33144d",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/h_0Ife5rhAIsOhJnGKeG8D.png?ixlib=java-2.1.0&w=50&s=0dfeff925fd53f7dd311f2588a33144d"
+                        },
+                        "fantasyPlayerId": {
+                            "playerId": 18883
+                        },
+                        "statsLocation": "/stats/players/18883/doru?startDate=2022-12-01&endDate=2023-06-01",
+                        "male": true
+                    }
+                },
+                {
+                    "cost": 202000,
+                    "playerData": {
+                        "name": "Triton",
+                        "flag": "https://www.hltv.org/img/static/flags/30x20/ZA.gif",
+                        "picture": "https://img-cdn.hltv.org/playerbodyshot/o80JX9RUXmC6JPS-ZkdYzR.png?ixlib=java-2.1.0&w=400&s=88ed14408914f0e94c71791fbdf9fc70",
+                        "playerLevel": "SILVER",
+                        "stats": {
+                            "rating": "1.14",
+                            "ctRating": "1.20",
+                            "tRating": "1.08",
+                            "awpKillsPerRound": "0.00",
+                            "hsPercentage": "53.4%",
+                            "entryFragsPerRound": "8.2%",
+                            "cluthesPerRound": "1.2%",
+                            "supportRounds": "16.5%",
+                            "multiKillRounds": "20.5%",
+                            "dpr": "0.64"
+                        },
+                        "team": {
+                            "name": "Bravado",
+                            "link": "/team/5158/bravado",
+                            "logoDay": "https://img-cdn.hltv.org/teamlogo/h_0Ife5rhAIsOhJnGKeG8D.png?ixlib=java-2.1.0&w=50&s=0dfeff925fd53f7dd311f2588a33144d",
+                            "logoNight": "https://img-cdn.hltv.org/teamlogo/h_0Ife5rhAIsOhJnGKeG8D.png?ixlib=java-2.1.0&w=50&s=0dfeff925fd53f7dd311f2588a33144d"
+                        },
+                        "fantasyPlayerId": {
+                            "playerId": 21150
+                        },
+                        "statsLocation": "/stats/players/21150/triton?startDate=2022-12-01&endDate=2023-06-01",
+                        "male": true
+                    }
+                }
+            ],
+            "teamData": {
+                "name": "Bravado",
+                "link": "/team/5158/bravado",
+                "logoDay": "https://img-cdn.hltv.org/teamlogo/h_0Ife5rhAIsOhJnGKeG8D.png?ixlib=java-2.1.0&w=50&s=0dfeff925fd53f7dd311f2588a33144d",
+                "logoNight": "https://img-cdn.hltv.org/teamlogo/h_0Ife5rhAIsOhJnGKeG8D.png?ixlib=java-2.1.0&w=50&s=0dfeff925fd53f7dd311f2588a33144d"
+            },
+            "rank": 130
         }
     ];
 
